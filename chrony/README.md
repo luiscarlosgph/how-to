@@ -1,5 +1,5 @@
-How to synchronise two computers via NTP
-----------------------------------------
+How to synchronise computers via NTP
+------------------------------------
 Chrony is both an NTP client and server.
 
 Server
