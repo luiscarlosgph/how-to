@@ -6,7 +6,7 @@ $ python3 -m pip install synapseclient
 
 Upload
 ------
-Download the uploader script:
+Download the uploader script from this repository:
 ```
 $ wget https://raw.githubusercontent.com/luiscarlosgph/how-to/main/synapse/synapse_uploader.py
 ```
