@@ -1,14 +1,25 @@
+Install synapseclient
+---------------------
+```
+$ python3 -m pip install synapseclient
+```
+
 Upload
 ------
-* Upload a file or a set of files to synapse:
+* Upload a file to Synapse:
 
 
-* Upload a folder and its contents to Synapse:
+* Upload a directory and its contents to Synapse:
 
 
 Download
 --------
+* Download a file into the current local directory:
 ```
-$ python3 -m synapseclient -u <synapse_username> -p <synapse_password> get -r "<synapse_id>"
+$ python3 -m synapseclient -u <synapse_username> -p <synapse_password> get <synapse_id>
 ```
-If the **synapse_id** points to a directory, this command will download the contents of the directory into the current local directory.
+
+* Download the contents of a Synapse directory into the current local directory:
+```
+$ python3 -m synapseclient -u <synapse_username> -p <synapse_password> get -r <synapse_id>
+```
