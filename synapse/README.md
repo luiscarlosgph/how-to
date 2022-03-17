@@ -1,3 +1,7 @@
+Description
+-----------
+[Synapse](https://www.synapse.org) is a web service that allows for free sharing of research datasets.
+
 Install synapseclient
 ---------------------
 ```
