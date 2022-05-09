@@ -40,4 +40,4 @@ $ sudo reboot
 $ sudo apt update && apt upgrade
 ```
 
-The upgrade will comment out the NVIDIA Ubuntu (18.04) repos in `/etc/apt/sources.list.d/...` -> **Don’t uncomment them**
+The upgrade will comment out the NVIDIA Ubuntu (18.04) repos in `/etc/apt/sources.list.d/...`, **do not uncomment them**.
