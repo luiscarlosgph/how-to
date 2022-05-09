@@ -5,7 +5,7 @@ List of how-to tutorials, mostly for Debian/Ubuntu/Linux related stuff.
 Contents
 --------
 
-* **Computer Vision**
+* **Computer vision**
   * [opencv](https://github.com/luiscarlosgph/how-to/tree/main/opencv): guide to install the OpenCV library in Ubuntu/Debian. 
 
 
