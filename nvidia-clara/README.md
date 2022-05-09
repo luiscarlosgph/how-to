@@ -1,5 +1,5 @@
-Flash
------
+Flashing Jetpack
+----------------
 
 ![photo1](https://user-images.githubusercontent.com/3996630/167399938-5545671e-5336-4ad1-a789-3491d13597d4.png)
 
@@ -31,3 +31,13 @@ $ sudo apt autoclean
 ```
 sudo nvgpuswitch.py install dGPU
 ```
+
+3. Upgrade Ubuntu 18.04 to Ubuntu 20.04 using the CLI as usual:
+```
+$ sudo apt update && sudo apt upgrade && sudo reboot
+$ sudo do-release-upgrade
+$ sudo reboot
+$ sudo apt update && apt upgrade
+```
+
+The upgrade will comment out the NVIDIA Ubuntu (18.04) repos in `/etc/apt/sources.list.d/...` -> **Don’t uncomment them**
