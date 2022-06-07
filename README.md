@@ -23,6 +23,10 @@ Contents
   * [swap](https://github.com/luiscarlosgph/how-to/tree/main/swap): guide on how to create, modify (e.g. change size), and delete swap files.
 
 
+* **Multimedia**
+  * [ffmpeg](https://github.com/luiscarlosgph/how-to/tree/main/ffmpeg): guide on how to perform several tasks with ffmpeg (e.g. convert a video to images).
+
+
 * **Miscellaneous**
   * [synapse](https://github.com/luiscarlosgph/how-to/tree/main/synapse): guide on how to upload and download stuff from Synapse (scientific data storage).
 
