@@ -41,3 +41,8 @@ $ sudo apt update && apt upgrade
 ```
 
 The upgrade will comment out the NVIDIA Ubuntu (18.04) repos in `/etc/apt/sources.list.d/...`, **do not uncomment them**.
+
+
+Docker containers
+-----------------
+* [PyTorch with GPU support](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch)
