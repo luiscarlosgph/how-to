@@ -46,3 +46,8 @@ The upgrade will comment out the NVIDIA Ubuntu (18.04) repos in `/etc/apt/source
 Docker containers
 -----------------
 * [PyTorch with GPU support](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch)
+
+
+Miscellaneous 
+-------------
+* Get L4T version: `$ head -n 1 /etc/nv_tegra_release`
