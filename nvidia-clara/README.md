@@ -1,6 +1,8 @@
 Flashing Jetpack
 ----------------
 
+Note: the pictures below aim to show the button you have to click to flash the Clara. The reset button is accessible without removing the plate that is around the PCI-E connectors.
+
 ![photo1](https://user-images.githubusercontent.com/3996630/167399938-5545671e-5336-4ad1-a789-3491d13597d4.png)
 
 ![photo2](https://user-images.githubusercontent.com/3996630/167399950-2782c21c-b1c9-4544-be77-ba222e4b8c35.png)
