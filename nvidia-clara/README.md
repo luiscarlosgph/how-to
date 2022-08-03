@@ -11,7 +11,7 @@ Flashing Jetpack
 
 ![photo4](https://user-images.githubusercontent.com/3996630/167399979-14e309a7-32cd-4d35-9374-94b38e505fa1.png)
 
-Note: the step shown in the picture above is not necessary as you can click the button (in the picture below) through the holes you can see on the black plate (in the picture above).
+Note: the step shown in the picture above is not necessary as you can click the button (in the picture below) through the tiny holes you can see on the black plate (in the picture above).
 
 ![photo5](https://user-images.githubusercontent.com/3996630/167399997-fee1b3a4-11d7-42df-976f-78b6da45e1b5.png)
 
