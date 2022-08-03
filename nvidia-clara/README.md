@@ -18,7 +18,7 @@ Note: the step shown in the picture above is not necessary as you can click the 
 ![photo6](https://user-images.githubusercontent.com/3996630/167400014-990df518-f514-4664-b34f-4e4026084d86.png)
 
 
-Install Ubuntu 20.04
+Install Ubuntu 20.04 (obsolete if you install JetPack 5.0 with the NVIDIA Clara SDK installer)
 --------------------
 
 1. Install the Ubuntu 18.04 with Jetpack kernel using the NVIDIA Clara SDK.
