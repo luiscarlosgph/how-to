@@ -6,7 +6,7 @@ Contents
 --------
 
 * **Computer vision**
-  * [opencv](https://github.com/luiscarlosgph/how-to/tree/main/opencv): guide to install the OpenCV library in Ubuntu/Debian. 
+  * [opencv](opencv): guide to install the OpenCV library in Ubuntu/Debian. 
 
 
 * **Shell**
@@ -29,6 +29,7 @@ Contents
 
 * **Miscellaneous**
   * [synapse](https://github.com/luiscarlosgph/how-to/tree/main/synapse): guide on how to upload and download stuff from Synapse (scientific data storage).
+  * [latex](latex): install instructions along with a mix and match of helpful latex code snippets. 
 
 
 * **Hardware platforms**
