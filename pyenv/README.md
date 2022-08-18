@@ -6,7 +6,7 @@ Because it allows you to change the global Python version on a per-user basis wi
 Install dependencies
 --------------------
 ```bash
-$ sudo apt install git python
+$ sudo apt install git python zlib1g-dev libbz2-dev 
 ```
 
 Install pyenv for your user
@@ -32,7 +32,8 @@ Usage
 * Get the list of Python versions that you could possibly install: `$ pyenv install -l`
 * Download and install a new version of Python: `$ pyenv install 3.9.13`
 * Change from one version of Python to another: `$ pyenv global 3.9.13`
-* Get the Python version that `pyenv` is currently using: `TODO`
+* Get the Python version that `pyenv` is currently using: `$ pyenv version`
+* Uninstall one of the Python versions: `$ pyenv uninstall 3.9.13`
 
 Additional information
 ----------------------
