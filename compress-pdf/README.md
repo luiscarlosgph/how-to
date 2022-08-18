@@ -1,7 +1,7 @@
 Install dependencies
 --------------------
 ```bash
-$ sudo apt install wget ghostscript
+$ sudo apt install wget ghostscript exiftool
 ```
 
 Download the code
