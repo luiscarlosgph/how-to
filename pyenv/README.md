@@ -29,6 +29,7 @@ If you have no idea which terminal you use run: `$ echo $SHELL`.
 Usage
 -----
 * Get the list of Python versions installed in your system: `$ pyenv versions`
+* Get the list of Python versions that you could possibly install: `$ pyenv install -l`
 * Download and install a new version of Python: `TODO`
 * Change from one version of Python to another: `TODO`
 * Get the Python version that `pyenv` is currently using: `TODO`
