@@ -5,7 +5,10 @@ List of how-to tutorials, mostly for Debian/Ubuntu/Linux related stuff.
 Contents
 --------
 
-* **Computer vision**
+* **Coding**
+  * [pyenv](pyenv): install and configure pyenv.
+
+  **Computer vision**
   * [opencv](opencv): guide to install the OpenCV library in Ubuntu/Debian. 
 
 
