@@ -1,7 +1,7 @@
 Why is `pyenv` useful?
 ----------------------
 
-Because it allows you to change the global Python version on a per-user basis with a simple command.
+Because it allows you to change the global Python version on a per-user basis (or per-terminal basis) with a simple command.
 
 Install dependencies
 --------------------
