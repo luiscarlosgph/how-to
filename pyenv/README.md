@@ -16,7 +16,7 @@ Install pyenv for your user
 $  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
-* Configure your terminal to use `pyenv`: add this at the end of your `~/.bashrc` (if you use **bash**) or `~/.zshrc` (if you use **zsh**) 
+* Configure your terminal to use `pyenv`: add the following lines at the end of your `~/.bashrc` (if you use **bash**) or `~/.zshrc` (if you use **zsh**) 
 ```bash
 export PYENV_ROOT="$HOME/.pyenv"                                                
 export PATH="$PYENV_ROOT/bin:$PATH"                                             
