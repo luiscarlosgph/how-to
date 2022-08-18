@@ -6,7 +6,7 @@ Because it allows you to change the global Python version on a per-user basis wi
 Install dependencies
 --------------------
 ```bash
-$ sudo apt install git
+$ sudo apt install git python
 ```
 
 Install pyenv for your user
