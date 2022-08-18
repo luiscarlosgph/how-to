@@ -31,7 +31,7 @@ Usage
 * Get the list of Python versions installed in your system: `$ pyenv versions`
 * Get the list of Python versions that you could possibly install: `$ pyenv install -l`
 * Download and install a new version of Python: `$ pyenv install 3.9.13`
-* Change from one version of Python to another: `TODO`
+* Change from one version of Python to another: `$ pyenv global 3.9.13`
 * Get the Python version that `pyenv` is currently using: `TODO`
 
 Additional information
