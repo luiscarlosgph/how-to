@@ -18,11 +18,8 @@ TODO
 Usage
 -----
 * Get the available versions of Python: `TODO`
-
 * Download and install a new version of Python: `TODO`
-
 * Change from one version of Python to another: `TODO`
-
 * Get the Python version that `pyenv` is currently using: `TODO`
 
 Additional information
