@@ -16,3 +16,4 @@ Compress PDF
 ```bash
 $ ./compresspdf.sh whatever.pdf
 ```
+The resulting file will have a `-compressed.pdf` suffix, i.e. `whatever-compressed.pdf` following the example above.
