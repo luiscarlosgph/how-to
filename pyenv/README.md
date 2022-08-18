@@ -9,7 +9,7 @@ Install dependencies
 $ sudo apt install git python zlib1g-dev libbz2-dev libreadline-dev libssl-dev
 ```
 
-Install pyenv for your user
+Install `pyenv` for your user
 ---------------------------
 * Download:
 ```bash
