@@ -24,6 +24,8 @@ eval "$(pyenv init --path)"
 ```
 For changes to take effect run `$ source ~/.bashrc` (if you use **bash**) or `$ source ~/.zshrc` (if you use **zsh**). Alternatively, you can close your terminal and open it again.
 
+If you have no idea which terminal you use run: `$ echo $SHELL`.
+
 Usage
 -----
 * Get the available versions of Python: `TODO`
