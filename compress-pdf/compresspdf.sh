@@ -25,7 +25,6 @@ echo PDF lossy compression using:
 echo $PDF2PDFFLAGS -sOutputFile="$F-compressed.pdf" "$1" $pdfmarks
 gs $PDF2PDFFLAGS -sOutputFile="$F-compressed.pdf" "$1" $pdfmarks
 
-# Chrome has issues if exiftool is run last. Make sure smpdf comes afterwards
 if ! [ -x "$(command -v exiftool)" ]; then
     echo Could not find exiftool - Some tags might have been lost
 else
