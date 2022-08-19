@@ -41,32 +41,32 @@ else
     exiftool -overwrite_original -TagsFromFile "$1" "$F-compressed.pdf"
 fi
 
-if ! [ -x "$(command -v smpdf)" ]; then
-    echo Could not find smpdf - Skipping additional lossless compression
-    echo See https://www.coherentpdf.com/compression.html
-else
-    # Use smpdf to further compress the file in a lossless fashion
-    echo PDF lossless compression using:
-    echo smpdf "$F-compressed.pdf" -o "$F-compressed2.pdf"
-    smpdf "$F-compressed.pdf" -o "$F-compressed2.pdf"
-    mv "$F-compressed2.pdf" "$F-compressed.pdf"
-fi
+#if ! [ -x "$(command -v smpdf)" ]; then
+#    echo Could not find smpdf - Skipping additional lossless compression
+#    echo See https://www.coherentpdf.com/compression.html
+#else
+#    # Use smpdf to further compress the file in a lossless fashion
+#    echo PDF lossless compression using:
+#    echo smpdf "$F-compressed.pdf" -o "$F-compressed2.pdf"
+#    smpdf "$F-compressed.pdf" -o "$F-compressed2.pdf"
+#    mv "$F-compressed2.pdf" "$F-compressed.pdf"
+#fi
 
-if ! [ -x "$(command -v cpdf)" ]; then
-    echo Could not find cpdf - Skipping additional annotation copying
-    echo See https://www.coherentpdf.com/compression.html
-else
-    # Use cpdf to copy information over
-    echo PDF ID copy using:
-    echo cpdf -copy-id-from "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
-    cpdf -copy-id-from "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
-    mv "$F-compressed2.pdf" "$F-compressed.pdf"
-    
-    echo PDF annotation copy using:
-    echo cpdf -copy-annotations "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
-    cpdf -copy-annotations "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
-    mv "$F-compressed2.pdf" "$F-compressed.pdf"
-fi
+#if ! [ -x "$(command -v cpdf)" ]; then
+#    echo Could not find cpdf - Skipping additional annotation copying
+#    echo See https://www.coherentpdf.com/compression.html
+#else
+#    # Use cpdf to copy information over
+#    echo PDF ID copy using:
+#    echo cpdf -copy-id-from "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
+#    cpdf -copy-id-from "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
+#    mv "$F-compressed2.pdf" "$F-compressed.pdf"
+#    
+#    echo PDF annotation copy using:
+#    echo cpdf -copy-annotations "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
+#    cpdf -copy-annotations "$1" "$F-compressed.pdf" -o "$F-compressed2.pdf"
+#    mv "$F-compressed2.pdf" "$F-compressed.pdf"
+#fi
 
 # Get the new file size
 new_size=$(du -h "$F-compressed.pdf" | cut -f1)
