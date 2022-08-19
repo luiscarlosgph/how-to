@@ -1,6 +1,8 @@
-tmux configuration
-------------------
-Add to ```~/.zshrc```:
+Configure terminal to run tmux every time
+-----------------------------------------
+
+Add to ```~/.zshrc``` (if you use **zsh**) or `~/.bashrc` (if you use **bash**):
+
 ```bash
 plugins=(tmux git)
 
