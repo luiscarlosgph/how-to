@@ -42,6 +42,8 @@ FAQ
 * After I install **pyenv** and select a particular version of Python with `$ pyenv global <version>`, where is my Python binary? If you followed this tutorial, then you installed **pyenv** in your home, i.e. `~/.pyenv` and your Python binary should be in `~/.pyenv/shims/python`. Run `$ which python` if you want to be sure.
 
 * After I install **pyenv**, where do the packages that I install with pip go? As an example, for Python version `3.9.13`, you should find the packages that you install with `pip` in `~/.pyenv/versions/3.9.13/lib/python3.9/site-packages`.
+
+
 Additional information
 ----------------------
 * [pyenv](https://github.com/pyenv/pyenv)
