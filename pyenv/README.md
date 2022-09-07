@@ -36,6 +36,11 @@ Usage
 * Get the Python version that `pyenv` is currently using: `$ pyenv version`
 * Uninstall one of the Python versions: `$ pyenv uninstall 3.9.13`
 
+FAQ
+---
+
+* After I install **pyenv** and select a particular version with `$ pyenv global <version>`, where is my Python binary? Well, if you followed this tutorial you installed **pyenv** in your home, i.e. `~/.pyenv` and your Python binary should be in `~/.pyenv/shims/python`. Run `$ which python` if you want to be sure.
+
 Additional information
 ----------------------
 * [pyenv](https://github.com/pyenv/pyenv)
