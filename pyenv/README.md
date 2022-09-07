@@ -11,12 +11,12 @@ $ sudo apt install build-essential vim git wget curl python zlib1g-dev libbz2-de
 
 Install `pyenv` for your user
 ---------------------------
-* Download:
+1. Download **pyenv**:
 ```bash
 $  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
-* Configure your terminal to use `pyenv`: add the following lines at the end of your `~/.bashrc` (if you use **bash**) or `~/.zshrc` (if you use **zsh**) 
+2. Configure your terminal to use `pyenv`: add the following lines at the end of your `~/.bashrc` (if you use **bash**) or `~/.zshrc` (if you use **zsh**) 
 ```bash
 export PYENV_ROOT="$HOME/.pyenv"                                                
 export PATH="$PYENV_ROOT/bin:$PATH"                                             
