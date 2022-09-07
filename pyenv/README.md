@@ -6,7 +6,7 @@ Because it allows you to change the global Python version on a per-user basis (o
 Install dependencies
 --------------------
 ```bash
-$ sudo apt install sudo build-essential vim git wget curl python zlib1g-dev libbz2-dev libreadline-dev libssl-dev libsqlite3-dev libffi-dev liblzma-dev tk-dev ncurses-dev
+$ sudo apt install build-essential vim git wget curl python zlib1g-dev libbz2-dev libreadline-dev libssl-dev libsqlite3-dev libffi-dev liblzma-dev tk-dev ncurses-dev
 ```
 
 Install `pyenv` for your user
