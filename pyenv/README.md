@@ -39,7 +39,7 @@ Usage
 FAQ
 ---
 
-* After I install **pyenv** and select a particular version with `$ pyenv global <version>`, where is my Python binary? Well, if you followed this tutorial you installed **pyenv** in your home, i.e. `~/.pyenv` and your Python binary should be in `~/.pyenv/shims/python`. Run `$ which python` if you want to be sure.
+* After I install **pyenv** and select a particular version of Python with `$ pyenv global <version>`, where is my Python binary? Well, if you followed this tutorial you installed **pyenv** in your home, i.e. `~/.pyenv` and your Python binary should be in `~/.pyenv/shims/python`. Run `$ which python` if you want to be sure.
 
 Additional information
 ----------------------
