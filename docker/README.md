@@ -7,7 +7,7 @@ Guide to setup [Docker](https://www.docker.com) in Ubuntu. The official install 
 Install a nice Docker environment
 ---------------------------------
 
-What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https://pytorch.org/get-started/locally) to train deep learning models and [Portainer](https://www.portainer.io) so we can download images and deploy containers quickly.
+What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https://pytorch.org/get-started/locally) to train deep learning models and [Portainer](https://www.portainer.io) so we can download images and deploy containers quickly with a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface).
 
 1. Uninstall old versions:
     ```
