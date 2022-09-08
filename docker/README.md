@@ -48,3 +48,10 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     ```
     $ sudo systemctl restart docker
     ```
+    
+8. Add your user to the group `docker` so you can actually use Docker:
+    ```
+    $ sudo usermod -a -G docker <your_user_here>
+    
+    # For example, for the user dummy: $ sudo usermod -a -G docker dummy
+    ```
