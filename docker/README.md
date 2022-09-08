@@ -69,11 +69,11 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     
     ![Screenshot from 2022-09-08 02-01-57](https://user-images.githubusercontent.com/3996630/189010757-8e6c0838-5c84-4359-adb9-746037acd8a3.png)
     
-    Click `Accept the Risk and Continue`, you will never see this message again. Portainer will now prompt you for your new username and password (to access Portainer). After that is done, click on `Containers`, your screen should look like this:
+    Click `Accept the Risk and Continue`, you will never see this message again. Portainer will now prompt you for your new username and password (to access Portainer). After you set them up, the setup is ready:
     
     ![Screenshot from 2022-09-08 03-25-29](https://user-images.githubusercontent.com/3996630/189019774-d1d91794-8be2-4aee-b473-6982d8804ee5.png)
 
-    The setup is ready, enjoy!
+    Enjoy!
     
     PS, you do not need to use the same password everywhere, you can use [KeePassX](https://www.keepassx.org) to store all your passwords. You can save the encrypted password file (\*.kdbx) in Dropbox and open it from all your devices, also from your iPhone (Strongbox app) and your Android (Keepass2Android app).
 
