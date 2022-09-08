@@ -65,7 +65,13 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     
     ![Screenshot from 2022-09-08 01-59-37](https://user-images.githubusercontent.com/3996630/189010590-6a92f7e0-c661-4750-b534-c7bd272e352f.png)
     
-    Ignore this message, click the **Advanced...** button, and you will then see this:
+    Ignore this message, click the `Advanced...` button, and you will then see this:
     
     ![Screenshot from 2022-09-08 02-01-57](https://user-images.githubusercontent.com/3996630/189010757-8e6c0838-5c84-4359-adb9-746037acd8a3.png)
+    
+    Click `Accept the Risk and Continue`, you will never see this message again. 
+    
+    Now Portainer will prompt you for your username and password, once you set it up, enjoy the graphical Docker!
+    
+    * Off-topic: you do not need to use the same password everywhere, you can use a program like [KeePassX](https://www.keepassx.org) to store all your passwords.
 
