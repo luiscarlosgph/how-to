@@ -10,7 +10,9 @@ Install a nice Docker environment
 What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https://pytorch.org/get-started/locally) to train deep learning models and [Portainer](https://www.portainer.io) so we can download images and deploy containers quickly.
 
 1. Uninstall old versions:
-    ```$ sudo apt remove docker docker-engine docker.io containerd runc```
+    ```
+    $ sudo apt remove docker docker-engine docker.io containerd runc
+    ```
     
 2. Install dependencies:
     ```
