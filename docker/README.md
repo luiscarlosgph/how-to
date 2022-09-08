@@ -71,7 +71,7 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     
     Click `Accept the Risk and Continue`, you will never see this message again. 
     
-    Now Portainer will prompt you for your username and password, once you set it up, enjoy the graphical Docker!
+    Now Portainer will prompt you for your username and password, once you set it up, click the `Home` button on the left-hand side menu and enjoy!
     
     * Off-topic: you do not need to use the same password everywhere, you can use a program like [KeePassX](https://www.keepassx.org) to store all your passwords.
 
