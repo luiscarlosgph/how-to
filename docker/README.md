@@ -53,7 +53,7 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     ```
     $ sudo usermod -a -G docker john
     ```
-    Now you need to **log out from your session** (don't worry, if you log out without closing your web browser you will get your million tabs back) and log in again for this change to take effect.
+    Now you need to **log out from your Ubuntu session** for this change to take effect (don't worry, if you log out without closing your web browser you will get your million tabs back). Then, **log in again**.
     
 9. Install Portainer:
     ```
