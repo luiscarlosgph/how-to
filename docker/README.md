@@ -1,7 +1,7 @@
 Description
 -----------
 
-This is a quick guide to setup [Docker](https://www.docker.com) in Ubuntu. The official install guide is [here](https://docs.docker.com/engine/install/ubuntu/).
+This is a quick guide to setup [Docker](https://www.docker.com) in Ubuntu.
 
 
 Install a nice Docker environment
