@@ -73,5 +73,5 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     
     Now Portainer will prompt you for your username and password, once you set it up, click the `Home` button on the left-hand side menu and enjoy!
     
-   PS, you do not need to use the same password everywhere, you can use [KeePassX](https://www.keepassx.org) to store all your passwords. You can save the encrypted file with the passwords in Dropbox and open it from all your devices, also from your iPhone (Strongbox app) and your Android (Keepass2Android app).
+    PS, you do not need to use the same password everywhere, you can use [KeePassX](https://www.keepassx.org) to store all your passwords. You can save the encrypted password file (\*.kdbx) in Dropbox and open it from all your devices, also from your iPhone (Strongbox app) and your Android (Keepass2Android app).
 
