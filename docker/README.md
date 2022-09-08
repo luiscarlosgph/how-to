@@ -30,3 +30,10 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     $ sudo apt update
     $ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
     ```
+
+5. Install CUDA support for Docker (i.e. the nvidia-docker2 runtime):
+    ```
+    $ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+    $ curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+    $ curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+    ```
