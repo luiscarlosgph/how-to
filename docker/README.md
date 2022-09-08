@@ -53,3 +53,12 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     ```
     $ sudo usermod -a -G docker john
     ```
+    Log out from your session and log in again for this change to take effect.
+    
+9. Install Portainer:
+    ```
+    $ docker volume create portainer_data
+    $ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.3
+    ```
+
+10. Access [https://127.0.0.1:9443](https://127.0.0.1:9443) and enjoy your graphical Docker.
