@@ -3,8 +3,9 @@ Description
 
 Guide to setup [Docker](https://www.docker.com) in Ubuntu. The official install guide is [here](https://docs.docker.com/engine/install/ubuntu/).
 
-* What is Docker? Docker is used to create, run and deploy applications in containers [1].
-* What is a Docker image? Docker images act as a set of instructions to build a Docker container, like a template. Docker images are the starting point when using Docker [1].
+* What is **Docker**? Docker is used to create, run and deploy applications in containers [1]. 
+* What is a **Docker image**? Docker images act as a set of instructions to build a Docker container, like a template [1]. You can create and delete an image.
+* What is a **Docker container**? A container is a runnable instance of an image. You can create, start, stop, or delete a container [2].
 
 [1] https://www.techtarget.com/searchitoperations/definition/Docker-image
 
