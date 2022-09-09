@@ -77,6 +77,8 @@ Install
    $ chmod +x nvidia_driver.sh
    $ sudo ./nvidia_driver.sh
    ```
+   
+   Click always the options that will allow you to continue with the installation, and say that **you do not want** neither the 32-bit compatibility libraries nor [DKMS](https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support).
 
 9. Reboot and enjoy!
    
