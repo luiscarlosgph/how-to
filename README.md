@@ -24,6 +24,7 @@ Contents
 
 * **GNU/Linux**
   * [swap](swap): guide on how to create, modify (e.g. change size), and delete swap files.
+  * [nvidia-driver](nvidia-driver): guide on how to install any version of the NVIDIA driver.
 
 
 * **Multimedia**
