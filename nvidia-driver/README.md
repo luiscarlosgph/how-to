@@ -59,7 +59,10 @@ Install
 
 8. Kill graphical processes:
 
-TODO
+   ```
+   $ sudo /etc/init.d/gdm3 stop
+   $ sudo /etc/init.d/lightdm stop
+   ```
    
 6. Remove previous NVIDIA drivers:
 
