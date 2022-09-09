@@ -52,9 +52,17 @@ Install
    TODO
    ```
    
-5. Close graphical environment:
+6. Remove previous NVIDIA drivers:
 
-6. Install NVIDIA driver:
+TODO
 
-7. Reboot and enjoy!
+7. Close graphical environment:
+
+TODO
+
+8. Install NVIDIA driver:
+
+TODO
+
+9. Reboot and enjoy!
    
