@@ -70,7 +70,7 @@ Install
    $ sudo apt remove nvidia-*
    ```
 
-8. Install the previously downloaded NVIDIA driver:
+8. Install the downloaded NVIDIA driver:
 
    ```
    $ cd ~/Downloads
