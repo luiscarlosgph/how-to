@@ -36,12 +36,12 @@ Install
 3. Download driver:
    ```
    $ cd ~/Downloads
-   $ wget <paste_link_from_clipboard_here>
+   $ wget <paste_link_from_clipboard_here> -O nvidia_driver.sh
    ```
    For example:
    ```
    $ cd ~/Downloads
-   $ wget https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
+   $ wget https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run -O nvidia_driver.sh
    ```
   
 4. Blacklist [nouveau](https://en.wikipedia.org/wiki/Nouveau_(software)) drivers:
@@ -55,7 +55,11 @@ Install
    $ sudo reboot
    ```
    
-7. Close graphical environment: `Ctrl+Alt+F4`
+7. Close graphical environment: Press `Ctrl+Alt+F4`, and log in.
+
+8. Kill graphical processes:
+
+TODO
    
 6. Remove previous NVIDIA drivers:
 
@@ -65,7 +69,11 @@ Install
 
 8. Install NVIDIA driver:
 
-   TODO
+   ```
+   $ cd ~/Downloads
+   $ chmod +x nvidia_driver.sh
+   $ sudo ./nvidia_driver.sh
+   ```
 
 9. Reboot and enjoy!
    
