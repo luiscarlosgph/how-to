@@ -3,7 +3,7 @@ Description
 
 This guide explains you how to install any version of the NVIDIA driver without using the repositories of your Linux distribution. 
 
-* Why not using the repositories? There are many ocassions when you need a specific version of the NVIDIA driver, and there is a limited offer of NVIDIA driver versions in the repos.
+* Why not using the repositories? There are many ocassions when you need a specific version of the NVIDIA driver (e.g. CUDA support, bugs), and there is a limited offer of NVIDIA driver versions in the repos.
 
 Install
 -------
