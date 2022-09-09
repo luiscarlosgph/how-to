@@ -49,16 +49,19 @@ Install
    [Nouveau](https://en.wikipedia.org/wiki/Nouveau_(software)) is an open source driver for NVIDIA cards that comes installed in many Linux distributions. You do not want it because it does not support CUDA. Therefore, let's blacklist it so that the Linux kernel does not use it:
    
    ```
-   TODO
+   $ sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+   $ sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+   $ sudo update-initramfs -u
+   $ sudo reboot
    ```
+   
+7. Close graphical environment: `Ctrl+Alt+F4`
    
 6. Remove previous NVIDIA drivers:
 
-   TODO
-
-7. Close graphical environment:
-
-   TODO
+   ```
+   $ sudo apt remove nvidia-*
+   ```
 
 8. Install NVIDIA driver:
 
