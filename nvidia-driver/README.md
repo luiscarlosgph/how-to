@@ -15,7 +15,7 @@ Install
   01:00.0 VGA compatible controller: NVIDIA Corporation GP102 [TITAN X] (rev a1)
   ```
 
-2. Go to the NVIDIA website [here](https://www.nvidia.com/Download/Find.aspx) and search for your model:
+2. Go to the NVIDIA website [here](https://www.nvidia.com/Download/Find.aspx) and search for your model (TITAN X following the example above):
 
   ![nvidia_search](https://user-images.githubusercontent.com/3996630/189359318-debc0b8a-7060-4c7d-a8b5-978ee308a218.png)
 
