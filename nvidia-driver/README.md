@@ -43,3 +43,18 @@ Install
   $ cd ~/Downloads
   $ wget https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
   ```
+  
+4. Blacklist [nouveau](https://en.wikipedia.org/wiki/Nouveau_(software)) drivers:
+   
+   [Nouveau](https://en.wikipedia.org/wiki/Nouveau_(software)) is an open source driver for NVIDIA cards that comes installed in many Linux distributions. You do not want it because it does not support CUDA. Therefore, let's blacklist it so that the Linux kernel does not use it:
+   
+   ```
+   TODO
+   ```
+   
+5. Close graphical environment:
+
+6. Install NVIDIA driver:
+
+7. Reboot and enjoy!
+   
