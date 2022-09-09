@@ -23,16 +23,19 @@ Install
   
   ![driver_version](https://user-images.githubusercontent.com/3996630/189361233-afedb1de-32c6-4996-94b0-5ddc29a9a668.png)
   
-  Click `Download` and you will see this:
+  Click on the driver version you want. If you are in doubt, pick the most recent version number. After you click on a particular version you will see this:
   
-  Right-click on the `Download` button and select `Copy link`. You now
+  TODO
+  
+  Right-click on the `Download` button and select `Copy link`. You now have copied the URL pointing to the driver in your clipboard.
   
 3. Download driver:
   ```
   $ cd ~/Downloads
-  
   $ wget <paste_link_from_clipboard_here>
   ```
-  
+  For example:
+  ```
+  $ cd ~/Downloads
   $ wget https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
   ```
