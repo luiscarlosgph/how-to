@@ -55,7 +55,7 @@ Install
    $ sudo reboot
    ```
    
-7. Close graphical environment: Press `Ctrl+Alt+F4`, and log in.
+7. Close graphical environment: press `Ctrl+Alt+F4`, and log in.
 
 8. Kill graphical processes:
 
