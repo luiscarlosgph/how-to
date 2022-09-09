@@ -64,7 +64,7 @@ Install
    $ sudo /etc/init.d/lightdm stop
    ```
    
-6. Remove previous NVIDIA drivers:
+6. Remove old NVIDIA drivers:
 
    ```
    $ sudo apt remove nvidia-*
