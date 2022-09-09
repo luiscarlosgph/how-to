@@ -25,8 +25,12 @@ Install
   
   Click on the driver version you want. If you are in doubt, pick the most recent version number. After you click on a particular version you will see this:
   
-  TODO
+  ![driver_download](https://user-images.githubusercontent.com/3996630/189362593-58cc9c69-e049-47e6-9547-c582b0409317.png)
   
+  Click on `Download` and you will see this:
+  
+  ![actual_download](https://user-images.githubusercontent.com/3996630/189362659-cef006e2-3dd5-4202-921e-a9a6652b9fae.png)
+
   Right-click on the `Download` button and select `Copy link`. You now have copied the URL pointing to the driver in your clipboard.
   
 3. Download driver:
