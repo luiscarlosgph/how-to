@@ -16,6 +16,7 @@ Install
   ```
 
 2. Go to the NVIDIA website [here](https://www.nvidia.com/Download/Find.aspx) and search for your model:
+
   ![nvidia_search](https://user-images.githubusercontent.com/3996630/189359318-debc0b8a-7060-4c7d-a8b5-978ee308a218.png)
   
   Click `Search` and you will see this:
