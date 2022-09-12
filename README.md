@@ -7,8 +7,10 @@ Contents
 
 * **Coding**
   * [pyenv](pyenv): install and configure pyenv.
+  * [synapse](synapse): guide on how to upload and download stuff from Synapse (scientific data storage).
 
-  **Computer vision**
+
+* **Computer vision**
   * [opencv](opencv): guide to install the OpenCV library in Ubuntu/Debian. 
 
 
@@ -30,10 +32,10 @@ Contents
 * **Multimedia**
   * [ffmpeg](ffmpeg): convert a video to images.
   * [pdf-to-png](pdf-to-png): convert a PDF into a high resolution PNG image.
+  * [generate-qr-code](generate-qr-code): generate an image with the QR code of a given URL.
 
 
 * **Miscellaneous**
-  * [synapse](synapse): guide on how to upload and download stuff from Synapse (scientific data storage).
   * [latex](latex): install instructions along with a mix and match of helpful latex code snippets. 
   * [compress-pdf](compress-pdf): code and guide to help you compress a PDF file.
 
