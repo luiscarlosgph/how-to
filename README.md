@@ -28,7 +28,8 @@ Contents
 
 
 * **Multimedia**
-  * [ffmpeg](ffmpeg): guide on how to perform several tasks with ffmpeg (e.g. convert a video to images).
+  * [ffmpeg](ffmpeg): convert a video to images with [ffmpeg](https://ffmpeg.org).
+  * [pdf-to-png](pdf-to-png): convert PDF to high resolution PNG image.
 
 
 * **Miscellaneous**
