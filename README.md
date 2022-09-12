@@ -28,7 +28,7 @@ Contents
 
 
 * **Multimedia**
-  * [ffmpeg](ffmpeg): convert a video to images with [ffmpeg](https://ffmpeg.org).
+  * [ffmpeg](ffmpeg): convert a video to images with *ffmpeg*.
   * [pdf-to-png](pdf-to-png): convert PDF to high resolution PNG image.
 
 
