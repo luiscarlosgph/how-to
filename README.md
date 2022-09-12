@@ -29,7 +29,7 @@ Contents
 
 * **Multimedia**
   * [ffmpeg](ffmpeg): convert a video to images.
-  * [pdf-to-png](pdf-to-png): convert PDF to high resolution PNG image.
+  * [pdf-to-png](pdf-to-png): convert a PDF into a high resolution PNG image.
 
 
 * **Miscellaneous**
