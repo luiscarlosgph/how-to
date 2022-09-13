@@ -1,3 +1,11 @@
+Install
+-------
+
+```
+$ sudo apt update
+$ sudo apt install tmux
+```
+
 Configure terminal to run tmux every time
 -----------------------------------------
 
