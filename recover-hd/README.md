@@ -5,6 +5,11 @@ Install dependencies
 $ sudo apt install ddrescue testdisk
 ```
 
+Connect your failing drive
+--------------------------
+
+Connect your failing drive and find its path using `sudo dmesg | grep -P 'hd|sd'` right after you have plugged it in, you should see a name like `/dev/sda`, `/dev/sdb`, `/dev/sdc`...
+
 Recover data
 ------------
 
