@@ -23,6 +23,10 @@ Recover data
 
    For this purpose we are going to use [TestDisk](https://www.cgsecurity.org/wiki/TestDisk) and [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec). Let's start with PhotoRec.
    
-   2.1. PhotoRec:
-   
-      TODO
+   ```
+   $ sudo photorec <drive_or_image>
+   ```
+   For example:
+   ```
+   $ sudo failing_hd.img
+   ```
