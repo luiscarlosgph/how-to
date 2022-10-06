@@ -12,5 +12,13 @@ Options:
 #### Convert RTSP live stream to HLS
 
 ```bash
-$ ffmpeg -fflags nobuffer -rtsp_transport tcp -i <rtsp_url> -vsync 0 -copyts -vcodec copy -movflags frag_keyframe+empty_moov -an -hls_flags delete_segments+append_list -f segment -segment_list_flags live -segment_time 0.5 -segment_list_size 1 -segment_format mpegts -segment_list <output directory>/index.m3u8 -segment_list_type m3u8 -segment_list_entry_prefix <output directory>/ <output directory>/%3d.ts
+$ ffmpeg -fflags nobuffer -rtsp_transport tcp -i <rtsp_url> -vsync 0 -copyts -vcodec copy -movflags frag_keyframe+empty_moov -an -hls_flags delete_segments+append_list -f segment -segment_list_flags live -segment_time 0.5 -segment_list_size 1 -segment_format mpegts -segment_list <output_directory>/index.m3u8 -segment_list_type m3u8 -segment_list_entry_prefix <output_directory>/ <output_directory>/%3d.ts
+```
+
+To display this video in a browoser, you need to include:
+
+```html
+<video id="video-player" controls preload="none">
+    <source src="/output-directory/index.m3u8" type="application/x-mpegURL">
+</video>
 ```
