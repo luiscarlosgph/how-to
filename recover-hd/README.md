@@ -33,5 +33,5 @@ Recover data
    ```
    For example:
    ```
-   $ sudo failing_hd.img
+   $ sudo photorec failing_hd.img
    ```
