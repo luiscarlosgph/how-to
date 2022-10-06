@@ -31,7 +31,7 @@ Contents
 
 
 * **Multimedia**
-  * [ffmpeg](ffmpeg): convert a video to images.
+  * [ffmpeg](ffmpeg): set of ffmpeg useful commands, e.g. convert a video to images or an RTSP stream to HLS.
   * [pdf-to-png](pdf-to-png): convert a PDF into a high resolution PNG image.
   * [generate-qr-code](generate-qr-code): generate an image with the QR code of a given URL.
 
