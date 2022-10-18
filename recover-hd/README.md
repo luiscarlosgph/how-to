@@ -22,7 +22,11 @@ Connect your failing drive and find its path using `sudo dmesg | grep -P 'hd|sd'
 Mount image of the hard drive
 -----------------------------
 
-TODO
+```bash
+$ sudo apt install multipath-tools
+$ sudo kpartx -a failing_hd.img
+$ sudo mount -o loop /dev/mapper/loop0p2 /mnt/p2
+```
 
 Recover files
 -------------
