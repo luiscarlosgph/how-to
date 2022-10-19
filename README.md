@@ -28,6 +28,7 @@ Contents
   * [swap](swap): guide on how to create, modify (e.g. change size), and delete swap files.
   * [nvidia-driver](nvidia-driver): guide on how to install any version of the NVIDIA driver.
   * [recover-hd](recover-hd): recover data from a failing hard disk drive.
+  * [apt-dpkg](apt-dpkg): all the Debian/Ubuntu package system tricks, e.g. how to modify a .deb file to remove a dependency.
 
 
 * **Multimedia**
