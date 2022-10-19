@@ -2,7 +2,7 @@ Install dependencies
 --------------------
 
 ```bash
-$ sudo apt install ddrescue testdisk
+$ sudo apt install gddrescue testdisk
 ```
 
 Create image of the hard drive
