@@ -44,11 +44,14 @@ $ sudo mount /dev/loop11 /mnt/recovered_partition
 
 * Unmount:
 ```bash
-$ umount /mnt/recovered_partition
-$ losetup -d /dev/loop11
-$ kpartx -ds /dev/loop10
-$ losetup -d /dev/loop10
-$ rm -r /mnt/recovered_parition
+# Unmount partition
+$ sudo umount /mnt/recovered_partition
+$ sudo losetup -d /dev/loop11
+
+# Unmount disk
+$ sudo kpartx -ds /dev/loop10
+$ sudo losetup -d /dev/loop10
+$ sudo rm -r /mnt/recovered_parition
 ```
 
 Recover files
