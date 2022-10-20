@@ -27,8 +27,8 @@ $ sudo kpartx -a -r failing_hd.img
 $ sudo mount -o loop /dev/mapper/loop0p2 /mnt/p2
 -->
 
-Mount:
 ```bash
+# Mount disk image
 $ losetup /dev/loop10 failing_hd.img
 $ kpartx -as /dev/loop10
 
