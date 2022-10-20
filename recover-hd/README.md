@@ -24,7 +24,7 @@ Mount image of the hard drive
 
 ```bash
 $ sudo apt install -y multipath-tools
-$ sudo kpartx -a failing_hd.img
+$ sudo kpartx -r -a failing_hd.img
 $ sudo mount -o loop /dev/mapper/loop0p2 /mnt/p2
 ```
 
