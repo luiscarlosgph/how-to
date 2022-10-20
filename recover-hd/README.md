@@ -16,7 +16,7 @@ Connect your failing drive and find its path using `sudo dmesg | grep -P 'hd|sd'
 
    For example:
    ```bash
-   $ ddrescue -d -r 3 /dev/sdb failing_hd.img image_recovery.log
+   $ sudo ddrescue -d -r 3 /dev/sdb failing_hd.img image_recovery.log
    ```
 
 Mount image of the hard drive
