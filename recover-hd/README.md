@@ -27,6 +27,7 @@ $ sudo kpartx -a -r failing_hd.img
 $ sudo mount -o loop /dev/mapper/loop0p2 /mnt/p2
 -->
 
+* Mount:
 ```bash
 # Mount disk image
 $ sudo losetup /dev/loop10 failing_hd.img
@@ -41,13 +42,13 @@ $ sudo mkdir /mnt/recovered_partition
 $ sudo mount /dev/loop11 /mnt/recovered_partition
 ```
 
-Unmount:
+* Unmount:
 ```bash
-$ umount disk
-$ losetup -d /dev/loop1
-$ kpartx -ds /dev/loop0
-$ losetup -d /dev/loop0
-$ rmdir disk
+$ umount /mnt/recovered_partition
+$ losetup -d /dev/loop11
+$ kpartx -ds /dev/loop10
+$ losetup -d /dev/loop10
+$ rm -r /mnt/recovered_parition
 ```
 
 Recover files
