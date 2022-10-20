@@ -31,7 +31,12 @@ Mount:
 ```bash
 $ losetup /dev/loop10 failing_hd.img
 $ kpartx -as /dev/loop10
-$ losetup /dev/loop11 /dev/mapper/loop10p1
+
+# Run fdisk to check all the partitions of the disk
+$ fdisk -l
+
+# Mount the partition number 2 of the disk
+$ losetup /dev/loop11 /dev/mapper/loop10p2
 $ mkdir /mnt/recovered_disk
 $ mount /dev/loop11 /mnt/recovered_disk
 ```
