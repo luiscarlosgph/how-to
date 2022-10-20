@@ -19,13 +19,30 @@ Connect your failing drive and find its path using `sudo dmesg | grep -P 'hd|sd'
    $ sudo ddrescue -d -r 3 /dev/sdb failing_hd.img image_recovery.log
    ```
 
-Mount image of the hard drive
+Mount/unmount image of the hard drive
 -----------------------------
-
-```bash
+<!--
 $ sudo apt install -y multipath-tools
 $ sudo kpartx -a -r failing_hd.img
 $ sudo mount -o loop /dev/mapper/loop0p2 /mnt/p2
+-->
+
+Mount:
+```bash
+$ losetup /dev/loop10 failing_hd.img
+$ kpartx -as /dev/loop10
+$ losetup /dev/loop11 /dev/mapper/loop10p1
+$ mkdir /mnt/recovered_disk
+$ mount /dev/loop11 /mnt/recovered_disk
+```
+
+Unmount:
+```bash
+$ umount disk
+$ losetup -d /dev/loop1
+$ kpartx -ds /dev/loop0
+$ losetup -d /dev/loop0
+$ rmdir disk
 ```
 
 Recover files
