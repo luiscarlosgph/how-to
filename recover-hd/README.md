@@ -37,8 +37,8 @@ $ sudo fdisk -l
 
 # Mount the partition number 2 of the disk
 $ sudo losetup /dev/loop11 /dev/mapper/loop10p2
-$ sudo mkdir /mnt/recovered_disk
-$ sudo mount /dev/loop11 /mnt/recovered_disk
+$ sudo mkdir /mnt/recovered_partition
+$ sudo mount /dev/loop11 /mnt/recovered_partition
 ```
 
 Unmount:
