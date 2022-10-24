@@ -65,7 +65,7 @@ Install
    $ sudo reboot
    ```
    
-7. Warning! Before you keep going, open this website in another computer/phone, in the next step your screen will turn into a black screen with a single terminal which will not allow you to browse the Internet. 
+7. Warning! Before you keep going, open this website in another computer/phone, in the next step your monitor will turn into a black screen with a single terminal which will not allow you to browse the Internet. 
 
 8. Press `Ctrl+Alt+F4`, a black screen will appear in front of you with a terminal asking you to `login:`. Write your username, click Enter, write your password, click Enter again. Now you are logged in and should see a terminal.
 
