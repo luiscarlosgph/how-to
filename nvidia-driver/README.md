@@ -21,9 +21,9 @@ Install
    01:00.0 VGA compatible controller: NVIDIA Corporation Device 24b8 (rev a1)
    ```
    It means that you have two GPUs, ignore the Intel one. Then:
-   1. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt) and check what is the last version of the NVIDIA driver.
-   2. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/) and click on the folder corresponding to the last version of the driver, which you should have discovered in the step above.
-   3. Navigate to `README/supportedchips.html` and find the device number, `24b8` in the example above. Your NVIDIA card model will be written next to it.
+   1. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt) and check what is the last version of the NVIDIA driver. You will see something like `515.76`.
+   2. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/) and click on the folder corresponding to the last version of the driver, e.g. `515.76`,
+   3. Edit your URL in your browser and append `README/supportedchips.html` and find the device number, `24b8` in the example above. Your NVIDIA card model will be written next to it.
    
 2. Go to the NVIDIA website [here](https://www.nvidia.com/Download/Find.aspx) and search for your model (TITAN X following the example above):
 
