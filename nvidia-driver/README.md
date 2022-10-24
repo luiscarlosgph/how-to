@@ -14,7 +14,17 @@ Install
    $ lspci | grep VGA
    01:00.0 VGA compatible controller: NVIDIA Corporation GP102 [TITAN X] (rev a1)
    ```
-
+   
+   If the output of this command is something like:
+   ```
+   00:02.0 VGA compatible controller: Intel Corporation Device 9a60 (rev 01)
+   01:00.0 VGA compatible controller: NVIDIA Corporation Device 24b8 (rev a1)
+   ```
+   It means that you have two GPUs, ignore the Intel one. Then:
+   1. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt) and check what is the last version of the NVIDIA driver.
+   2. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/) and click on the folder corresponding to the last version of the driver.
+   3. Go into `README/supportedchips.html` and find the device number, `24b8` in the example above. The NVIDIA card model will be written next to it.
+   
 2. Go to the NVIDIA website [here](https://www.nvidia.com/Download/Find.aspx) and search for your model (TITAN X following the example above):
 
    ![nvidia_search](https://user-images.githubusercontent.com/3996630/189359318-debc0b8a-7060-4c7d-a8b5-978ee308a218.png)
