@@ -78,7 +78,7 @@ Install
 6. Remove old NVIDIA drivers that might be installed in your system:
 
    ```
-   $ sudo apt remove '^nvidia-.*'
+   $ sudo apt remove 'nvidia-*'
    ```
 
 8. Install the downloaded NVIDIA driver:
