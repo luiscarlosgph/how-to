@@ -65,7 +65,7 @@ Install
    $ sudo reboot
    ```
    
-7. Close graphical environment: press `Ctrl+Alt+F4` and log in the terminal.
+7. Press `Ctrl+Alt+F4`, a black screen will appear in front of you with a terminal asking you to `login:`. Write your username, click Enter, write your password, click Enter again. Now you are logged in and should see a terminal.
 
 8. Kill graphical processes:
 
