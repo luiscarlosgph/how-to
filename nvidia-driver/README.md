@@ -68,11 +68,13 @@ Install
 7. Press `Ctrl+Alt+F4`, a black screen will appear in front of you with a terminal asking you to `login:`. Write your username, click Enter, write your password, click Enter again. Now you are logged in and should see a terminal.
 
 8. Kill graphical processes:
-
+   Now you need to kill your display manager. It is possible that you have no idea what a display manager is, in that case you might want to read [this](https://itsfoss.com/display-manager). It might also happen that you do not know which display manager you are using. Two typical ones are [lightdm](https://en.wikipedia.org/wiki/LightDM) and [GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), but if you are not sure just kill them all:
    ```
    $ sudo /etc/init.d/gdm3 stop
    $ sudo /etc/init.d/lightdm stop
    ```
+   
+   Naturally, when you run the command to kill the display manager that you do not have you will see a message like `command not found`, no worries, keep killing them.
    
 6. Remove old NVIDIA drivers that might be installed in your system:
 
