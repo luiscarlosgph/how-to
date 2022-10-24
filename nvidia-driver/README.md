@@ -93,7 +93,7 @@ Install
    
    Click always the options that will allow you to continue with the installation, and say that **you do not want**, neither the 32-bit compatibility libraries, nor [DKMS](https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support). Reply `Yes` to running the `nvidia-config` utility.
    
-12. Run `$ sudo rm /etc/X11/xorg.conf`.
+12. Run `$ sudo rm /etc/X11/xorg.conf`
 
 13. Reboot with `$ sudo reboot` and enjoy!
    
