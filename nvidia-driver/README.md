@@ -27,6 +27,8 @@ Install
    4. Find the device number, e.g. `24b8` in the example above. Your NVIDIA card model will be written next to it.
    
 2. Go to the NVIDIA website [here](https://www.nvidia.com/Download/Find.aspx) and search for your model (TITAN X following the example above):
+   
+   If you do not know the `Product Series` of your card, you can probably find it [here](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units) if you search for your card model.
 
    ![nvidia_search](https://user-images.githubusercontent.com/3996630/189359318-debc0b8a-7060-4c7d-a8b5-978ee308a218.png)
 
