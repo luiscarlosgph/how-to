@@ -15,12 +15,12 @@ Install
    01:00.0 VGA compatible controller: NVIDIA Corporation GP102 [TITAN X] (rev a1)
    ```
    
-   If the output of this command is something like:
+   If the output of this command does not show the exact model of your GPU, but something like:
    ```
    00:02.0 VGA compatible controller: Intel Corporation Device 9a60 (rev 01)
    01:00.0 VGA compatible controller: NVIDIA Corporation Device 24b8 (rev a1)
    ```
-   It means that you have two GPUs, ignore the Intel one. Then:
+   Let's ignore the Intel GPU and concentrate on discovering what model of NVIDIA card you have. In the example above, the Device PCI ID is `24b8`. To find out which model corresponds to this Device PCI ID:
    1. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt) and check what is the last version of the NVIDIA driver. You will see something like `515.76`.
    2. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/) and click on the folder corresponding to the last version of the driver, e.g. `515.76`,
    3. Navigate to `README` -> `A. Supported NVIDIA GPU Products` (you will need to scroll down to the bottom).
