@@ -68,11 +68,11 @@ Install
    $ sudo reboot
    ```
    
-7. Warning! Before you keep going, open this website in another computer/phone, in the next step your monitor will turn into a black screen with a single terminal which will not allow you to browse the Internet. 
+5. Warning! Before you keep going, open this website in another computer/phone, in the next step your monitor will turn into a black screen with a single terminal which will not allow you to browse the Internet. 
 
-8. Press `Ctrl+Alt+F4`, a black screen will appear in front of you with a terminal asking you to `login:`. Write your username, click Enter, write your password, click Enter again. Now you are logged in and should see a terminal.
+6. Press `Ctrl+Alt+F4`, a black screen will appear in front of you with a terminal asking you to `login:`. Write your username, click Enter, write your password, click Enter again. Now you are logged in and should see a terminal.
 
-9. Now you need to kill your display manager. It is possible that you have no idea what a display manager is, in that case you might want to read [this](https://itsfoss.com/display-manager). It might also happen that you do not know which display manager you are using. Two typical ones are [lightdm](https://en.wikipedia.org/wiki/LightDM) and [GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), but if you are not sure just kill them all:
+7. Now you need to kill your display manager. It is possible that you have no idea what a display manager is, in that case you might want to read [this](https://itsfoss.com/display-manager). It might also happen that you do not know which display manager you are using. Two typical ones are [lightdm](https://en.wikipedia.org/wiki/LightDM) and [GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), but if you are not sure just kill them all:
    ```
    $ sudo /etc/init.d/gdm3 stop
    $ sudo /etc/init.d/lightdm stop
@@ -80,13 +80,13 @@ Install
    
    Naturally, when you run the command to kill the display manager that you do not have you will see a message like `command not found`, no worries, keep killing them.
    
-10. Remove old NVIDIA drivers that might be installed in your system:
+8. Remove old NVIDIA drivers that might be installed in your system:
 
    ```
    $ sudo apt remove 'nvidia-*'
    ```
 
-11. Install the downloaded NVIDIA driver:
+9. Install the downloaded NVIDIA driver:
 
    ```
    $ cd ~/Downloads
@@ -96,7 +96,7 @@ Install
    
    Click always the options that will allow you to continue with the installation, and say that **you do not want**, neither the 32-bit compatibility libraries, nor [DKMS](https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support). Reply `Yes` to running the `nvidia-config` utility.
    
-12. Run `$ sudo rm /etc/X11/xorg.conf`
+10. Run `$ sudo rm /etc/X11/xorg.conf`
 
-13. Reboot with `$ sudo reboot` and enjoy!
+11. Reboot with `$ sudo reboot` and enjoy!
    
