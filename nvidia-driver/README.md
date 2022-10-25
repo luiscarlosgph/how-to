@@ -22,7 +22,7 @@ Install
    ```
    Let's ignore the Intel GPU and concentrate on discovering what model of NVIDIA card you have. In the example above, the Device PCI ID of the NVIDIA card is `24b8`. To find out which model corresponds to this Device PCI ID:
    1. Click [here](https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt) and check what is the last version of the NVIDIA driver. You will see two columns separated by a space, the version is located in the first column, it should be something like `515.76`.
-   2. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/) and click on the folder corresponding to the last version of the driver, e.g. `515.76`,
+   2. Go [here](https://download.nvidia.com/XFree86/Linux-x86_64/) and click on the link corresponding to the last version of the driver, which you discovered in the previous step, e.g. `515.76`.
    3. Navigate to `README` -> `A. Supported NVIDIA GPU Products` (you will need to scroll down to the bottom).
    4. Find the device number, e.g. `24b8` in the example above. Your NVIDIA card model will be written next to it.
    
