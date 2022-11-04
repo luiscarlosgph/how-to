@@ -49,9 +49,9 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     $ sudo systemctl restart docker
     ```
     
-8. Add your user to the group `docker` so you can actually use Docker (e.g. for the user **john**):
+8. Add your user to the group `docker` so you can actually use Docker:
     ```
-    $ sudo usermod -a -G docker john
+    $ sudo usermod -a -G docker <your_username_here>
     ```
     Now you need to **log out (and log in again) from your Ubuntu session** for this change to take effect (don't worry, if you log out without closing your web browser you will get your million tabs back).
     
