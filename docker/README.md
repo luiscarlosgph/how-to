@@ -60,7 +60,7 @@ More info on the previous command [here](https://nvidia.github.io/libnvidia-cont
     ```
     $ sudo usermod -a -G docker <your_username_here>
     ```
-    Now you need to **log out (and log in again) from your Ubuntu session** for this change to take effect (don't worry, if you log out without closing your web browser you will get your million tabs back).
+    Now you need to **log out (and log in again) from your Ubuntu session** for this change to take effect (don't worry, if you log out without closing your web browser you will get your million tabs back). Rebooting your PC also works.
     
 9. Install Portainer:
     ```
