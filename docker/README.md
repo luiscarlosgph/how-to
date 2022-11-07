@@ -36,6 +36,7 @@ What do I mean by nice? Docker with CUDA support so we can run [PyTorch](https:/
     ```
     $ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
     $ curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+    $ sudo su
     $ echo "deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://nvidia.github.io/libnvidia-container/stable/ubuntu20.04/amd64 /" >> /etc/apt/sources.list
     ```
 <!--
