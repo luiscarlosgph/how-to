@@ -43,7 +43,13 @@ Setup
    wpa_passphrase=1234567890
    ```
    
-3. **Wireless DHCP server**: 
+3. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
+   
+   ```bash
+   $ sudo apt remove network-manager
+   ```
+   
+4. **Wireless DHCP server**: 
    
    ```bash
    $ sudo apt install isc-dhcp-server
@@ -84,8 +90,4 @@ Setup
    $ sudo systemctl enable isc-dhcp-server
    ```
    
-4. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
-   
-   ```bash
-   $ sudo apt remove network-manager
-   ```
+
