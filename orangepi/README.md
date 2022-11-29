@@ -64,6 +64,12 @@ Setup
    }
    ```
    
+   Edit config file `$ sudo vim /etc/default/isc-dhcp-server`:
+   
+   ```
+   INTERFACESv4="wlan0"
+   ```
+   
    
 4. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
    
