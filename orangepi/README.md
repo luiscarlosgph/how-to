@@ -24,7 +24,7 @@ Setup
    #deb-src http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
    ```
 
-* **Wireless access point**: 
+* **Wireless Access Point (AP)**: 
 
    Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point), but use this configuration for `/etc/hostapd.conf`:
 
