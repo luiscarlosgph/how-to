@@ -46,3 +46,9 @@ Setup
 * **Wireless DHCP server**: 
    
    TODO
+   
+* **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`.
+   
+   ```bash
+   $ sudo apt remove network-manager
+   ```
