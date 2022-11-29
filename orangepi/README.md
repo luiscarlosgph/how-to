@@ -6,4 +6,4 @@ Configuration files and how-to guides for the [Orange Pi](http://www.orangepi.or
 APT
 ---
 
-Usually the card comes with unofficial repos, replace `/etc/apt/sources.list` with the contents of [sources.list](sources.list).
+Usually the card comes with unofficial repos, replace the existing `/etc/apt/sources.list` by [this one](sources.list).
