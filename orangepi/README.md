@@ -42,3 +42,7 @@ Setup
    rsn_pairwise=CCMP
    wpa_passphrase=1234567890
    ```
+   
+* **Wireless DHCP server**: 
+   
+   TODO
