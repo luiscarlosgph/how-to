@@ -35,10 +35,7 @@ Setup
    #bridge=br0
    hw_mode=g
    channel=5
-   #ieee80211n=1
    wmm_enabled=1
-   #ht_capab=[HT40]
-   #macaddr_acl=0
    auth_algs=1
    wpa=2
    wpa_key_mgmt=WPA-PSK
