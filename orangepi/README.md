@@ -70,6 +70,17 @@ Setup
    INTERFACESv4="wlan0"
    ```
    
+   Configure IP address of the wireless adapter, edit `$ sudo vim /etc/network/interfaces`:
+   
+   ```
+   TODO
+   ```
+   
+   Enable DHCP server:
+   
+   ```
+   $ sudo systemctl enable isc-dhcp-server
+   ```
    
 4. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
    
