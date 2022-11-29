@@ -45,7 +45,25 @@ Setup
    
 3. **Wireless DHCP server**: 
    
-   TODO
+   ```bash
+   $ sudo apt install isc-dhcp-server
+   ```
+   
+   Edit config file `$ sudo vim /etc/dhcp/dhcpd.conf`:
+   
+   ```
+   default-lease-time 600;
+   max-lease-time 7200;
+   authoritative;
+ 
+   subnet 10.0.0.0 netmask 255.255.255.0 {
+      range 10.0.0.1 10.0.0.254;
+      option broadcast-address 10.0.0.255; 
+      option routers 10.0.0.1;
+      option domain-name-servers 8.8.8.8;
+   }
+   ```
+   
    
 4. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
    
