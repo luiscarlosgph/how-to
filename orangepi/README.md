@@ -8,7 +8,21 @@ Setup
 
 * **apt**: 
 
-   Usually the card comes with unofficial repos, replace the existing `/etc/apt/sources.list` by [this one](sources.list).
+   Usually the card comes with unofficial repos, replace the existing `/etc/apt/sources.list` by this one:
+   
+   ```
+   deb http://ports.ubuntu.com/ubuntu-ports jammy main restricted universe multiverse
+   #deb-src http://ports.ubuntu.com/ubuntu-ports jammy main restricted universe multiverse
+
+   deb http://ports.ubuntu.com/ubuntu-ports jammy-security main restricted universe multiverse
+   #deb-src http://ports.ubuntu.com/ubuntu-ports jammy-security main restricted universe multiverse
+
+   deb http://ports.ubuntu.com/ubuntu-ports jammy-updates main restricted universe multiverse
+   #deb-src http://ports.ubuntu.com/ubuntu-ports jammy-updates main restricted universe multiverse
+
+   deb http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
+   #deb-src http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
+   ```
 
 * **Wireless access point**: 
 
