@@ -44,4 +44,4 @@ Contents
 
 * **Hardware platforms**
   * [NVIDIA Clara](nvidia-clara): guide on how to flash the NVIDIA Clara. 
-  * [Orange Pi](orangepi): guide on how to deploy several services in the [Orange Pi](http://www.orangepi.org/) [SBC](https://en.wikipedia.org/wiki/Single-board_computer).
+  * [Orange Pi](orangepi): guide on how to deploy several services in the Orange Pi single-board computer.
