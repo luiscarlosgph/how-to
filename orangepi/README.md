@@ -8,4 +8,4 @@ Setup
 
 * `apt`: usually the card comes with unofficial repos, replace the existing `/etc/apt/sources.list` by [this one](sources.list).
 
-* Wireless access point: Setup an access point following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point).
+* Wireless access point: setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point).
