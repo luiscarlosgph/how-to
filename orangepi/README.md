@@ -97,7 +97,7 @@ Configure Orange Pi as a wireless access point (AP)
    
 4. Redirect wireless traffic to the wired connection:
    
-   Create a firewall script via `sudo vim /etc/network/if-up.d/nat`:
+   Create a firewall script: `sudo vim /etc/network/if-up.d/nat`:
    
    ```
    #!/bin/bash
