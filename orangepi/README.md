@@ -66,7 +66,7 @@ Configure Orange Pi as a wireless access point (AP)
    $ sudo apt install isc-dhcp-server
    ```
    
-   Edit config file `$ sudo vim /etc/dhcp/dhcpd.conf`:
+   `$ sudo vim /etc/dhcp/dhcpd.conf`:
    
    ```
    default-lease-time 600;
@@ -81,13 +81,13 @@ Configure Orange Pi as a wireless access point (AP)
    }
    ```
    
-   Edit config file `$ sudo vim /etc/default/isc-dhcp-server`:
+   `$ sudo vim /etc/default/isc-dhcp-server`:
    
    ```
    INTERFACESv4="wlan0"
    ```
    
-   Configure IP address of the wireless adapter, edit `$ sudo vim /etc/network/interfaces`:
+   Configure IP address of the wireless adapter, `$ sudo vim /etc/network/interfaces`:
    
    ```
    auto lo
