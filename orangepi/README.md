@@ -79,9 +79,15 @@ Setup
    Configure IP address of the wireless adapter, edit `$ sudo vim /etc/network/interfaces`:
    
    ```
+   auto lo
+   iface lo inet loopback
+
+   allow-hotplug eth0
+   iface eth0 inet dhcp
+
    auto wlan0
    iface wlan0 inet static
-       address 10.0.0.1/24
+	    address 10.0.0.1/24
    ```
    
    Enable DHCP server:
