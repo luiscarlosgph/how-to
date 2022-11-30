@@ -3,10 +3,8 @@ Description
 
 Configuration files and how-to guides for the [Orange Pi](http://www.orangepi.org/).
 
-Setup
------
-
-1. **apt**: 
+apt
+---
 
    Usually the card comes with unofficial repos, replace the existing `/etc/apt/sources.list` by this one:
    
@@ -24,9 +22,10 @@ Setup
    #deb-src http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
    ```
 
-2. **Wireless Access Point (AP)**: 
+Wireless Access Point (AP)
+--------------------------
 
-   Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point), but use this configuration for `/etc/hostapd.conf`:
+1. Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point), but use this configuration for `/etc/hostapd.conf`:
 
    ```
    driver=nl80211
@@ -43,13 +42,13 @@ Setup
    wpa_passphrase=1234567890
    ```
    
-3. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
+2. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
    
    ```bash
    $ sudo apt remove network-manager
    ```
    
-4. **Wireless DHCP server**: 
+3. **Wireless DHCP server**: 
    
    ```bash
    $ sudo apt install isc-dhcp-server
