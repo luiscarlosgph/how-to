@@ -107,7 +107,7 @@ Configure Orange Pi as a wireless access point (AP)
    $ sudo systemctl enable isc-dhcp-server
    ```
    
-4. Redirect wireless traffic to the wired connection:
+4. **Redirect wireless traffic to the wired connection**:
    
    Create a firewall script via `sudo vim /etc/network/if-up.d/nat`:
    
