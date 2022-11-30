@@ -3,8 +3,8 @@ Description
 
 Configuration files and how-to guides for the [Orange Pi](http://www.orangepi.org/).
 
-apt
----
+Setup apt
+---------
 
    Usually the card comes with unofficial repos, replace the existing `/etc/apt/sources.list` by this one:
    
@@ -22,10 +22,10 @@ apt
    #deb-src http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
    ```
 
-Wireless Access Point (AP)
---------------------------
+Configure Orange Pi as a wireless access point (AP)
+---------------------------------------------------
 
-1. Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point), but use this configuration for `/etc/hostapd.conf`:
+1. **Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point), but use this configuration for `/etc/hostapd.conf`**:
 
    ```
    driver=nl80211
