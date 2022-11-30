@@ -126,3 +126,8 @@ Configure Orange Pi as a wireless access point (AP)
    echo 1 > /proc/sys/net/ipv4/ip_forward
    iptables -t nat -A POSTROUTING -s '10.0.0.0/24' -o eth0 -j MASQUERADE
    ```
+   
+   Give execution permissions to the firewall script above:
+   ```
+   $ sudo chmod +x /etc/network/if-up.d/nat
+   ```
