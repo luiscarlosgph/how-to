@@ -7,11 +7,11 @@ Contents
 
 * **Coding**
   * [pyenv](pyenv): install and configure pyenv.
-  * [synapse](synapse): guide on how to upload and download stuff from Synapse (scientific data storage).
+  * [Synapse](synapse): guide on how to upload and download stuff from Synapse (scientific data storage).
 
 
 * **Computer vision**
-  * [opencv](opencv): guide to install the OpenCV library in Ubuntu/Debian. 
+  * [OpenCV](opencv): guide to install the OpenCV library in Ubuntu/Debian. 
 
 
 * **Shell**
@@ -20,28 +20,28 @@ Contents
 
 
 * **Networking**
-  * [chrony](chrony): guide that shows how to synchronise computers via NTP.
-  * [wpa_supplicant](wpa_supplicant): guide on how to connect a Linux computer to a WiFi network from the command line.
-  * [access point](access_point): guide on how to setup a wireless access point.
+  * [Chrony](chrony): guide that shows how to synchronise computers via NTP.
+  * [WPA supplicant](wpa_supplicant): guide on how to connect a Linux computer to a WiFi network from the command line.
+  * [WIreless access point](access_point): guide on how to setup a wireless access point.
   * [DHCP server](dhcp-server): guide on how to setup a DHCP server.
 
 
 * **GNU/Linux**
-  * [swap](swap): guide on how to create, modify (e.g. change size), and delete swap files.
-  * [nvidia-driver](nvidia-driver): guide on how to install any version of the NVIDIA driver.
-  * [recover-hd](recover-hd): recover data from a failing hard disk drive.
+  * [Swap](swap): guide on how to create, modify (e.g. change size), and delete swap files.
+  * [NVIDIA driver](nvidia-driver): guide on how to install any version of the NVIDIA driver.
+  * [HD recovery](recover-hd): recover data from a failing hard disk drive.
   * [apt-dpkg](apt-dpkg): all the Debian/Ubuntu package system tricks, e.g. how to modify a .deb file to remove a dependency.
 
 
 * **Multimedia**
   * [ffmpeg](ffmpeg): set of ffmpeg useful commands, e.g. convert a video to images or an RTSP stream to HLS.
-  * [pdf-to-png](pdf-to-png): convert a PDF into a high resolution PNG image.
-  * [generate-qr-code](generate-qr-code): generate an image with the QR code of a given URL.
+  * [PDF to PNG](pdf-to-png): convert a PDF into a high resolution PNG image.
+  * [QR code generation](generate-qr-code): generate an image with the QR code of a given URL.
 
 
 * **Miscellaneous**
-  * [latex](latex): install instructions along with a mix and match of helpful latex code snippets. 
-  * [compress-pdf](compress-pdf): code and guide to help you compress a PDF file.
+  * [LaTeX](latex): install instructions along with a mix and match of helpful latex code snippets. 
+  * [PDF compression](compress-pdf): code and guide to help you compress a PDF file.
 
 
 * **Hardware platforms**
