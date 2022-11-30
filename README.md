@@ -22,7 +22,7 @@ Contents
 * **Networking**
   * [Chrony](chrony): guide that shows how to synchronise computers via NTP.
   * [WPA supplicant](wpa-supplicant): guide on how to connect a Linux computer to a WiFi network from the command line.
-  * [WIreless access point](access-point): guide on how to setup a wireless access point.
+  * [Wireless access point](access-point): guide on how to setup a wireless access point.
   * [DHCP server](dhcp-server): guide on how to setup a DHCP server.
 
 
