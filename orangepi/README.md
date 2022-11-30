@@ -26,12 +26,12 @@ Configure Orange Pi as a wireless access point (AP)
 ---------------------------------------------------
 
 1. **Setup AP**:
-2. 
+
    ```
    $ sudo apt install hostapd
    ```
    
-   
+   `$ sudo vim /etc/hostapd.conf`:
    
    ```
    driver=nl80211
@@ -46,6 +46,12 @@ Configure Orange Pi as a wireless access point (AP)
    wpa_key_mgmt=WPA-PSK
    rsn_pairwise=CCMP
    wpa_passphrase=1234567890
+   ```
+ 
+   `$ sudo vim /etc/default/hostapd`:
+   
+   ```
+   TODO
    ```
    
 2. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
