@@ -51,7 +51,7 @@ Configure Orange Pi as a wireless access point (AP)
    `$ sudo vim /etc/default/hostapd`:
    
    ```
-   TODO
+   DAEMON_CONF="/etc/hostapd.conf"
    ```
    
 2. **Uninstall network-manager**: it interferes with the configuration in `/etc/network/interfaces`
