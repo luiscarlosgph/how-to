@@ -25,7 +25,7 @@ Setup apt
 Configure Orange Pi as a wireless access point (AP)
 ---------------------------------------------------
 
-1. **Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access_point), but set `/etc/hostapd.conf` as shown below**:
+1. **Setup AP following [this guide](https://github.com/luiscarlosgph/how-to/tree/main/access-point), but set `/etc/hostapd.conf` as shown below**:
 
    ```
    driver=nl80211
