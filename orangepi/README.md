@@ -95,4 +95,34 @@ Configure Orange Pi as a wireless access point (AP)
    $ sudo systemctl enable isc-dhcp-server
    ```
    
+4. Redirect wireless traffic to the wired connection:
+   
+   Edit `sudo vim /etc/network/if-up.d/nat`:
+   
+   ```
+   #!/bin/bash
 
+   # Flush previous rules, delete chains and reset counters
+   iptables -F
+   iptables -X
+   iptables -Z
+   iptables -t nat -F
+
+   # Default policies
+   iptables -P INPUT   DROP
+   iptables -P OUTPUT  ACCEPT
+   iptables -P FORWARD ACCEPT
+
+   # Allow local programs that use loopback (Unix sockets)
+   iptables -A INPUT -s 127.0.0.0/8 -d 127.0.0.0/8 -i lo -j ACCEPT
+
+   # Allow established connections (the responses to our outgoing traffic)
+   iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+   # Allow incoming connections to our SSH server
+   iptables -A INPUT -p tcp --dport 22 -m state --state NEW -j ACCEPT
+
+   # Behave as a NAT router
+   echo 1 > /proc/sys/net/ipv4/ip_forward
+   iptables -t nat -A POSTROUTING -s '10.0.0.0/24' -o eth0 -j MASQUERADE
+   ```
