@@ -17,5 +17,6 @@ The commands below will help you to convert all the tex files into a single file
 $ sudo apt update
 $ sudo apt install perl
 $ cd <project_folder>
-$ wget 
+$ wget https://raw.githubusercontent.com/luiscarlosgph/how-to/main/latex/latexpand.pl
+$ perl latexpand.pl main.tex > all_in_one.tex
 ```
