@@ -2,7 +2,7 @@ Install Latex in Ubuntu
 -----------------------
 
 ```
-$ sudo apt update && sudo apt install -y texlive-full texstudio
+$ sudo apt update && sudo apt install -y texlive-full texlive-latex-extra texstudio
 ```
 Then you can run the LaTeX IDE simply running `$ texstudio` on a terminal.
 
