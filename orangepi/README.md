@@ -144,7 +144,9 @@ Configure Orange Pi as a wireless access point (AP)
    $ sudo chmod +x /etc/network/if-up.d/nat
    ```
 
+<!--
 Network failover
 ----------------
 
 Let's say we have two network interfaces, `eth0` and `usb0`. By default, we want to use `eth0`, but when there is no Internet access via `eth0`, we want to switch to `usb0`.
+-->
