@@ -150,3 +150,33 @@ Network failover
 
 Let's say we have two network interfaces, `eth0` and `usb0`. By default, we want to use `eth0`, but when there is no Internet access via `eth0`, we want to switch to `usb0`.
 -->
+
+
+Connect Orange Pi to a wireless access point from boot
+------------------------------------------------------
+
+1. Create a script in `/home/orangepi/wpa_client.sh`:
+   ``` 
+   #!/bin/bash
+
+   IFACE="wlan0"
+   ESSID="WIFI_NAME_HERE"
+   PASSWORD="WIFI_PASSWORD_HERE"
+
+   # Store ESSID and password
+   wpa_passphrase "$ESSID" "$PASSWORD" | sudo tee /etc/wpa_supplicant.conf
+
+   # Connect to the wireless access point in the background
+   sudo wpa_supplicant -B -c /etc/wpa_supplicant.conf -i $IFACE
+
+   # Setup IP address, netmask, DNS, and gateway with the information provided by the DHCP server
+   sudo dhclient $IFACE
+   ```
+
+2. Give execution permissions: `chmod +x /home/orangepi/wpa_client.sh`
+
+3. Stop wpa supplicant daemon:
+   ```
+   $ sudo systemctl stop wpa_supplicant
+   $ sudo systemctl disable wpa_supplicant
+   ```
