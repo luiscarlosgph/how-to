@@ -180,3 +180,5 @@ Connect Orange Pi to a wireless access point from boot
    $ sudo systemctl stop wpa_supplicant
    $ sudo systemctl disable wpa_supplicant
    ```
+
+4. Edit `/etc/rc.local` and add `/home/orangepi/wpa_client.sh` before the `exit 0` line.
