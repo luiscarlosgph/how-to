@@ -24,7 +24,6 @@ Contents
   * [WPA supplicant](wpa-supplicant): guide on how to connect a Linux computer to a WiFi network from the command line.
   * [Wireless access point](access-point): guide on how to setup a wireless access point.
   * [DHCP server](dhcp-server): guide on how to setup a DHCP server.
-  * [lighttpd](lighttpd): guide on how to setup lighttpd with Flask.
 
 
 * **GNU/Linux**
