@@ -24,6 +24,7 @@ Contents
   * [WPA supplicant](wpa-supplicant): guide on how to connect a Linux computer to a WiFi network from the command line.
   * [Wireless access point](access-point): guide on how to setup a wireless access point.
   * [DHCP server](dhcp-server): guide on how to setup a DHCP server.
+  * [nginx reverse proxy](nginx-reverse-proxy): tutorial to install nginx as a reverse proxy to serve web-based Python applications.
 
 
 * **GNU/Linux**
