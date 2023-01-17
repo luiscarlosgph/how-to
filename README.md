@@ -32,6 +32,7 @@ Contents
   * [NVIDIA driver](nvidia-driver): guide on how to install any version of the NVIDIA driver.
   * [HD recovery](recover-hd): recover data from a failing hard disk drive.
   * [apt-dpkg](apt-dpkg): all the Debian/Ubuntu package system tricks, e.g. how to modify a .deb file to remove a dependency.
+  * [Docker](docker): guide on how to install Docker with GPU support and a web GUI for management. 
 
 
 * **Multimedia**
