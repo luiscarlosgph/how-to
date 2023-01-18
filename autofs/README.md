@@ -28,3 +28,5 @@ Configure
 ```
 <resource_name> -fstype=fuse,rw,allow_other :sshfs\#<remote_username>@<remote_host>\:<remote_directory>
 ```
+
+**autofs** will create a folder named as specified in `<resource_name>` above and mount the remote directory from boot.
