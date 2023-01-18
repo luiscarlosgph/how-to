@@ -33,6 +33,7 @@ Contents
   * [HD recovery](recover-hd): recover data from a failing hard disk drive.
   * [apt-dpkg](apt-dpkg): all the Debian/Ubuntu package system tricks, e.g. how to modify a .deb file to remove a dependency.
   * [Docker](docker): guide on how to install Docker with GPU support and a web GUI for management. 
+  * [autofs + sshfs](autofs): guide on how to configure an sshfs mount from boot.
 
 
 * **Multimedia**
