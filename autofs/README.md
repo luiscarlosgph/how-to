@@ -13,7 +13,7 @@ $ sudo apt install autofs sshfs autossh
 Configure
 ---------
 
-1. Add the public SSH key of the user `root` to the `~/.ssh/authorized_keys` of the remote user in the SSH server whose directory you want to mount.
+1. Add the public SSH key of the local `root` user to the `~/.ssh/authorized_keys` of the remote user in the SSH server.
 
 2. Create folder where all the mounted resources will be: `$ mkdir ~/mounts`
 
