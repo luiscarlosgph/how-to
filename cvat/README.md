@@ -14,6 +14,7 @@ Setup CVAT
 ----------
 
 1. Build CVAT images: 
+
    ```
    $ git clone https://github.com/opencv/cvat
    $ cd cvat
