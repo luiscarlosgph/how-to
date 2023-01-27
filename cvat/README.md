@@ -20,3 +20,8 @@ Setup CVAT
    $ cd cvat
    $ docker compose up -d
    ```
+   
+2. Create CVAT superuser:
+   ```
+   $ docker exec -it cvat_server bash -ic 'python3 ~/manage.py createsuperuser'
+   ```
