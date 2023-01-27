@@ -1,7 +1,7 @@
 Description
 -----------
 
-[CVAT](https://opencv.github.io/cvat/about) is a web annotation tool.
+[CVAT](https://opencv.github.io/cvat/about) is a popular web annotation tool.
 
 
 Dependencies
