@@ -13,7 +13,7 @@ Install Docker following [these instructions](https://github.com/luiscarlosgph/h
 Setup CVAT
 ----------
 
-1. Build CVAT images: 
+1. Pull CVAT images and run containers: 
 
    ```
    $ git clone https://github.com/opencv/cvat
