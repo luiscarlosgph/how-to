@@ -29,4 +29,4 @@ you most likely will also see this message in your terminal:
    An OpenGL Core Profile was requested, but it is not supported on the current platform. Falling back to a non-Core profile. Note that this might cause rendering issues.
    ```
    
-   * **Solution**: run **3D Slicer** with `$ QTWEBENGINE_DISABLE_SANDBOX=1 ./Slicer`.
+   * **Solution**: run **3D Slicer** with `$ QTWEBENGINE_DISABLE_SANDBOX=1 ./Slicer`
