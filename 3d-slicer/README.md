@@ -13,7 +13,7 @@ $ cd 3dslicer
 Run
 ---
 
-Open your terminal and go to the directory where you have **3D Slicer** installed. If you are following this tutorial, you should be already there, then run:
+Open your terminal and navigate to the directory where you have **3D Slicer** installed. If you are following this tutorial, you should be already there, then run:
 ```
 $ ./Slicer
 ```
