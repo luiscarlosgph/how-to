@@ -12,6 +12,7 @@ Contents
 
 * **Computer vision**
   * [OpenCV](opencv): guide to install the OpenCV library in Ubuntu/Debian. 
+  * [3D Slicer](3d-slicer): guide to install and troubleshoot 3D Slicer issues.
 
 
 * **Shell**
