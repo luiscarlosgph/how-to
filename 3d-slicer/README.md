@@ -22,9 +22,8 @@ $ ./Slicer
 Troubleshooting
 ---------------
 
-* **Problem:** if you try to click on `View` -> `Extensions Manager` in **3D Slicer** 
-and see that the progress bar is at `100%` and the `Extensions Manager` window is completely empty, you most likely will
-also see this message in your terminal:
+* **Problem:** if you try to click on `View` -> `Extensions Manager` and see that the progress bar at a `100%` and the `Extensions Manager` page empty, 
+you most likely will also see this message in your terminal:
 
    ```
    An OpenGL Core Profile was requested, but it is not supported on the current platform. Falling back to a non-Core profile. Note that this might cause rendering issues.
