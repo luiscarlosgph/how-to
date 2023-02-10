@@ -22,7 +22,7 @@ $ ./Slicer
 Troubleshooting
 ---------------
 
-* **Problem:** if you try to click on `View` -> `Extensions Manager` and see that the progress bar at a `100%` and the `Extensions Manager` page empty, 
+* **Problem:** if you try to click on `View` -> `Extensions Manager` and see that the progress bar at a `100%` and the `Extensions Manager` page is empty, 
 you most likely will also see this message in your terminal:
 
    ```
