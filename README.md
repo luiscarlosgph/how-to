@@ -36,6 +36,7 @@ Contents
   * [Docker](docker): guide on how to install Docker with GPU support and a web GUI for management. 
   * [autofs + sshfs](autofs): guide on how to configure an sshfs mount from boot.
   * [keyboard](keyboard): collection of tutorials on how to tweak keyboard functionalities. 
+  * [MS Teams](teams): guide to install and troubleshoot MS Teams.
 
 
 * **Multimedia**
