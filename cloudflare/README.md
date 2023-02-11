@@ -14,7 +14,7 @@ you can update the DNS records of a domain on Cloudflare via API. To do so:
 
 5. Click on `Continue to summary` -> `Create Token`.
 
-6. Save [this script](cloudflare_dns_update.sh) in your favourite location, and edit it accordingly (i.e. write your Cloudflare account and domain details).
+6. Save [this script](https://github.com/luiscarlosgph/cloudflare-stuff/blob/main/src/cloudflare_dns_update.sh) in your favourite location, and edit it accordingly (i.e. write your Cloudflare account and domain details).
 
 7. Add script to crontab so that it runs every 10 minutes:
 
