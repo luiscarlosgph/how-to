@@ -9,3 +9,5 @@ $ sudo make install
 # Configure the DNS names to be updated
 $ sudo /usr/local/bin/noip2 -C
 ```
+
+To start the no-ip client from boot run `crontab -e` as root and add `@reboot /usr/local/bin/noip2`.
