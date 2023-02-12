@@ -26,7 +26,7 @@ $ chown root:root /usr/local/sbin/gd-dyndns
 $ chmod +x /usr/local/sbin/gd-dyndns
 ```
 
-3. Edit crontab (`crontab -e` as root) and call the script every 10 minutes:
+3. Edit crontab (`crontab -e` as root) and call the script every `10` minutes:
 
 ```
 */10 * * * *    /usr/local/sbin/gd-dyndns > /dev/null
