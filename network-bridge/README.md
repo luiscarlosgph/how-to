@@ -2,7 +2,7 @@ Install
 -------
 Install the bridge utils: `$ sudo apt install bridge-utils`
 
-This software allows you to set up and use the bridge interface. The bridge interface appears as a new interface in ip link, much like eth0 or eth1. It does not physically exist on your computer, but instead it is a virtual interface that just takes the packets from one physical interface, and transparently routes them to the other.
+This software allows you to set up and use the bridge interface. The bridge interface appears as a new interface in ip link, much like `eth0` or `eth1`. It does not physically exist on your computer, but instead it is a virtual interface that just takes the packets from one physical interface, and transparently routes them to the other.
 
 
 Configure
