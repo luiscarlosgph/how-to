@@ -22,7 +22,7 @@ fi
 2. Set ownership and permissions for the script: 
 
 ```
-$ chown root:root /usr/local/sbin/gd-dyndns`
+$ chown root:root /usr/local/sbin/gd-dyndns
 $ chmod +x /usr/local/sbin/gd-dyndns
 ```
 
