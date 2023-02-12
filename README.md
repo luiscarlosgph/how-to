@@ -27,7 +27,7 @@ Contents
   * [DHCP server](dhcp-server): guide on how to setup a DHCP server.
   * [nginx reverse proxy](nginx-reverse-proxy): tutorial to install nginx as a reverse proxy to serve web-based Python applications.
   * [Cloudflare](cloudflare): Cloudflare-related tutorials (e.g. dynamic DNS update).
-  * [no-ip](no-ip): manual that explains how to set up the No-IP client to update the domain associated to a dynamic IP.
+  * [no-ip](no-ip-duc): manual that explains how to set up the No-IP client to update the domain associated to a dynamic IP.
 
 
 * **GNU/Linux**
