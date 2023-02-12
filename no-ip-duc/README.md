@@ -1,3 +1,5 @@
+If you handle the domain for your dynamic IP with [https://www.noip.com](https://www.noip.com), this is how you can set it up:
+
 ```
 # Download and install
 $ cd /usr/local/src/
