@@ -28,6 +28,7 @@ Contents
   * [nginx reverse proxy](nginx-reverse-proxy): tutorial to install nginx as a reverse proxy to serve web-based Python applications.
   * [Cloudflare](cloudflare): Cloudflare-related tutorials (e.g. dynamic DNS update).
   * [no-ip](no-ip-duc): manual that explains how to set up the No-IP client to update the domain associated to a dynamic IP.
+  * [godaddy](godaddy): manual that explains how update a GoDaddy domain automatically from a PC that has a dynamic IP.
 
 
 * **GNU/Linux**
