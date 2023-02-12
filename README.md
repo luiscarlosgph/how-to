@@ -40,6 +40,7 @@ Contents
   * [autofs + sshfs](autofs): guide on how to configure an sshfs mount from boot.
   * [keyboard](keyboard): collection of tutorials on how to tweak keyboard functionalities. 
   * [MS Teams](teams): guide to install and troubleshoot MS Teams.
+  * [rc-local](rc-local): tutorial that shows how to add a script called `rc.local` that gets executed at boot.
 
 
 * **Multimedia**
