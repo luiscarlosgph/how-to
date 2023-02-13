@@ -42,6 +42,7 @@ Contents
   * [keyboard](keyboard): collection of tutorials on how to tweak keyboard functionalities. 
   * [MS Teams](teams): guide to install and troubleshoot MS Teams.
   * [rc-local](rc-local): tutorial that shows how to add a script called `rc.local` that gets executed at boot.
+  * [SystemD service](service): guide that explains how to create a service that runs a command at boot.
 
 
 * **Multimedia**
