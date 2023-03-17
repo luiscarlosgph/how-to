@@ -79,6 +79,7 @@ Install
    ```
    
    Naturally, when you run the command to kill the display manager that you do not have you will see a message like `command not found`, no worries, keep killing them.
+   
    After you kill your display manager with any of the commands above, your screen might turn black, to come back to your terminal simply press `Ctrl+Alt+F4`.
    
 8. Remove old NVIDIA drivers that might be installed in your system:
