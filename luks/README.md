@@ -8,7 +8,7 @@ How to create an encrypted drive
 --------------------------------
 
 * Install parted: `sudo apt install parted`
-* Run parted and create a GPT partition table and a primary partition (**do not do this on a drive that has contains data, you will lose it**): 
+* Run parted and create a GPT partition table and a primary partition that occupies the whole disk (**do not do this on a drive that has contains data, you will lose it**): 
    ```
    select /dev/sdX  # Replace `/dev/sdX` with your drive path, e.g. `/dev/sde`
    mklabel gpt
