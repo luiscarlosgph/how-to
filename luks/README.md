@@ -11,7 +11,7 @@ Let's assume that you have a drive with a single primary partition (encrypted wi
 
 * Bash code snippet to **mount** the encrypted partition:
 
-   ```
+   ```bash
    #!/bin/bash
 
    HDD_UUID="<WRITE_HERE_YOUR_PARTITION_UUID>"  # You can find this out with `lsblk --fs`
@@ -50,6 +50,17 @@ Let's assume that you have a drive with a single primary partition (encrypted wi
 
 * Bash code snippet to **unmount** an encrypted device:
 
-   ```
-   TODO
+   ```bash
+   #!/bin/bash
+
+   HDD_NAME="backup"
+   MOUNT_POINT="/mnt/$HDD_NAME"
+
+   # Umount the encrypted partition
+   echo -e "\n[INFO] Unmounting encrypted partition."
+   umount $MOUNT_POINT
+
+   # Close the partition
+   echo -e "\n[INFO] Closing partition with LUKS."
+   cryptsetup luksClose $HDD_NAME
    ```
