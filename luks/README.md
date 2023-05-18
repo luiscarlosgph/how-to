@@ -4,6 +4,34 @@ Description
 This page explains how to use a hard drive that has been encrypted with LUKS.
 
 
+How to create an encrypted drive
+--------------------------------
+
+* Install parted: `sudo apt install parted`
+* Run parted and create a GPT partition table and a primary partition (**do not do this on a drive that has contains data, you will lose it**): 
+   ```
+   select /dev/sdX  # Replace `/dev/sdX` with your drive path, e.g. `/dev/sde`
+   mklabel gpt
+   mkpart primary ext4 0% 100%
+   quit
+   ```
+* Encrypt the partition with LUKS (replace `/dev/sdX1` with your partition path, e.g. `/dev/sde1`): 
+   ```bash
+   $ cryptsetup luksFormat --type luks2 /dev/sdX1
+   ```
+   
+* Find the UUID of your `/dev/sdX1` partition: 
+   ```bash
+   $ lsblk --fs
+   ```
+
+* Format the encrypted partition with `ext4`:
+   ```bash
+   $ cryptsetup luksOpen /dev/disk/by-uuid/<WRITE_THE_UUID_HERE> <WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE>
+   $ mkfs.ext4 -L <WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE> /dev/mapper/<WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE>
+   $ cryptsetup luksClose <WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE>
+   ```
+
 How to use an encrypted drive
 -----------------------------
 
