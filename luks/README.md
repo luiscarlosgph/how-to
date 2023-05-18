@@ -31,6 +31,7 @@ How to create an encrypted drive
    $ mkfs.ext4 -L <WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE> /dev/mapper/<WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE>
    $ cryptsetup luksClose <WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE>
    ```
+   The `<WRITE_WHATEVER_PARITION_NAME_YOU_FANCY_HERE>` has to be the same in the three commands.
 
 How to use an encrypted drive
 -----------------------------
