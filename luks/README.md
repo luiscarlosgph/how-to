@@ -6,14 +6,16 @@ This page explains how to use a hard drive that has been encrypted with LUKS.
 
 How to use an encrypted drive
 -----------------------------
-   
-* Bash code snippet to **mount** an encrypted device:
+
+Let's assume that you have a drive with a single primary partition (encrypted with LUKS) that occupies the whole drive.
+
+* Bash code snippet to **mount** the encrypted partition:
 
    ```
    #!/bin/bash
 
-   HDD_UUID="<WRITE_HERE_YOUR_UUID>"  # You can find this out with `lsblk --fs`
-   HDD_NAME="<WRITE_HERE_THE_NAME_OF_YOUR_DRIVE>"  # You can choose any name
+   HDD_UUID="<WRITE_HERE_YOUR_PARTITION_UUID>"  # You can find this out with `lsblk --fs`
+   HDD_NAME="<WRITE_HERE_THE_LABEL_OF_YOUR_PARTITION>"  # You can choose any name
    MOUNT_POINT="/mnt/$HDD_NAME"
 
    # Check that the disk is not already decrypted
