@@ -19,6 +19,7 @@ How to create an encrypted drive
    ```bash
    $ cryptsetup luksFormat --type luks2 /dev/sdX1
    ```
+   Here you will be prompted for a password to encrypt the drive.
    
 * Find the UUID of your `/dev/sdX1` partition: 
    ```bash
