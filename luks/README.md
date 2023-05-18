@@ -53,7 +53,7 @@ Let's assume that you have a drive with a single primary partition (encrypted wi
    ```bash
    #!/bin/bash
 
-   HDD_NAME="backup"
+   HDD_NAME="<WRITE_HERE_THE_LABEL_OF_YOUR_PARTITION>"
    MOUNT_POINT="/mnt/$HDD_NAME"
 
    # Umount the encrypted partition
