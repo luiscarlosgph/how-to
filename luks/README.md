@@ -19,7 +19,7 @@ Let's assume that you have a drive with a single primary partition (encrypted wi
    MOUNT_POINT="/mnt/$HDD_NAME"
 
    # Check that the disk is not already decrypted
-   echo -e "[INFO] Checking that the disk is not already decrypted"
+   echo -e "\n[INFO] Checking that the disk is not already decrypted"
    decrypted=`ls /dev/mapper | grep $HDD_NAME`
    if [ ! -z "${decrypted}" ]; then
      echo -e "[ERROR] It seems that the hard drive has been already decrypted."
@@ -27,7 +27,7 @@ Let's assume that you have a drive with a single primary partition (encrypted wi
    fi
 
    # Decrypt HDD
-   echo -e "[INFO] Decrypting disk with LUKS"
+   echo -e "\n[INFO] Decrypting disk with LUKS"
    cryptsetup luksOpen /dev/disk/by-uuid/$HDD_UUID $HDD_NAME
 
    # Check that nothing else is mounted on the mountpoint
@@ -44,7 +44,7 @@ Let's assume that you have a drive with a single primary partition (encrypted wi
    fi
 
    # Mount encrypted partition
-   echo -e "[INFO] Mounting encrypted partition."
+   echo -e "\n[INFO] Mounting encrypted partition."
    mount /dev/mapper/$HDD_NAME $MOUNT_POINT
    ```
 
