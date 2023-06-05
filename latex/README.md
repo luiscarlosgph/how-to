@@ -7,6 +7,13 @@ $ sudo apt update && sudo apt install -y texlive-full texlive-latex-extra texstu
 Then you can run the LaTeX IDE simply running `$ texstudio` on a terminal.
 
 
+Install Latex in Mac
+--------------------
+
+1. Install mactex: `$ brew install mactex`
+
+2. Download and install [TeXstudio](https://www.texstudio.org/).
+
 
 Convert a hierarchy of latex files into a single latex file
 -----------------------------------------------------------
