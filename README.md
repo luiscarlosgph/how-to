@@ -44,6 +44,7 @@ Contents
   * [rc-local](rc-local): tutorial that shows how to add a script called `rc.local` that gets executed at boot.
   * [SystemD service](service): guide that explains how to create a service that runs a command at boot.
   * [LUKS](luks): hard disk encryption tutorial.
+  * [xournal](xournal): totorial explaining how to fill and sign a document in Ubuntu.
 
 
 * **Multimedia**
