@@ -9,6 +9,12 @@ Options:
   * `-r`: indicates how many images should be taken for each second of the video. For example, if you have 50 images and `-r 25`, the resulting video will have a duration of 2s.
 
 
+#### Convert a video into a folder of images
+
+```bash
+$ ffmpeg -i video.mp4 -r 25 -f image2 output_folder/%05d.png
+```
+
 #### Convert RTSP live stream to HLS:
 
 ```bash
