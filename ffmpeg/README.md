@@ -12,7 +12,7 @@ Options:
 #### Convert a video into a folder of images
 
 ```bash
-$ ffmpeg -i video.mp4 -r 25 -f image2 output_folder/%05d.png
+$ ffmpeg -i video.mp4 -r 25 -f image2 -qscale:v 2 output_folder/%05d.png
 ```
 
 #### Convert RTSP live stream to HLS:
