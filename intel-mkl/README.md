@@ -20,5 +20,5 @@ Install Intel MKL in Ubuntu:
    If you want all the Intel openAPI packages, run this instead (19GB of free space required):
 
    ```bash
-   $ sudo apt install intel-basekit intel-hpckit intel-iotkit intel-dlfdkit intel-aikit intel-renderkit.
+   $ sudo apt install intel-basekit intel-hpckit intel-iotkit intel-dlfdkit intel-aikit intel-renderkit
    ```
