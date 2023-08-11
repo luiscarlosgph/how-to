@@ -37,6 +37,7 @@ Contents
 
 * **Maths**
   * [Intel MKL](intel-mkl): guide to intall [Intel Math Kernel Library](https://en.wikipedia.org/wiki/Math_Kernel_Library) in Ubuntu/Debian.
+  * [faiss-gpu](faiss): guide to install [faiss](https://github.com/facebookresearch/faiss).
 
  
 * **Miscellaneous**
