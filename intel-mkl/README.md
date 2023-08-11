@@ -16,4 +16,8 @@ Install Intel MKL in Ubuntu:
    $ sudo apt install intel-basekit
    ```
 
-   If you want all the Intel openAPI packages, run this instead: `$ sudo apt install intel-basekit intel-hpckit intel-iotkit intel-dlfdkit intel-aikit intel-renderkit`
+   If you want all the Intel openAPI packages, run this instead:
+
+      ```bash
+      $ sudo apt install intel-basekit intel-hpckit intel-iotkit intel-dlfdkit intel-aikit intel-renderkit
+      ```
