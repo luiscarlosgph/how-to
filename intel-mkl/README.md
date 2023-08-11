@@ -10,12 +10,12 @@ Install Intel MKL in Ubuntu:
    ```
 
 
-2. Installing the library and Python packages:
+2. Installing the library and Python packages (15GB of free space required):
 
    ```bash
    $ sudo apt install intel-basekit    
    ```
-   15GB of free space are required for this.
+   
 
    If you want all the Intel openAPI packages, run this instead (19GB of free space required):
 
