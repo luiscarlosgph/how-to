@@ -1,6 +1,7 @@
-Install `faiss-gpu`:
+Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usually called `faiss-gpu`
+------------------------------------------------------------
 
-* The requirements are:
+   * The requirements are:
       * A C++17 compiler (with support for OpenMP version 2 or higher):
      
          `g++` supports C++17 since version 7, so you should have a `g++` version >= 7. Do not worry about the OpenMP requirement, OpenMP 4.5 is fully supported since `g++` version 6.
