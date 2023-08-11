@@ -30,7 +30,7 @@ Contents
   * [xournal](xournal): totorial explaining how to fill and sign a document in Ubuntu.
 
  
- * **Hardware platforms**
+* **Hardware platforms**
   * [NVIDIA Clara](nvidia-clara): guide on how to flash the NVIDIA Clara. 
   * [Orange Pi](orangepi): guide on how to deploy several services in the Orange Pi single-board computer.
 
