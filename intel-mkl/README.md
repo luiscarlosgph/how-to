@@ -1,6 +1,6 @@
 Install Intel MKL in Ubuntu:
 
-1. Add Intel repo to the `apt` list:
+1. Add Intel repo to `apt`:
 
    ```bash
    $ sudo apt install -y wget
