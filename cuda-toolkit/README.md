@@ -16,14 +16,16 @@ Before you install the CUDA toolkit, you need to install the NVIDIA driver, to d
 
 1. Download the CUDA toolkit:
 
-   Copy the download command the is displayed in the website, and download the version of the CUDA toolkit you selected:
+   Copy the download command that is displayed in the website, and append `-O /tmp/cuda.run`, as you see below:
 
    ```bash
-   $ wget https://developer.download.nvidia.com/compute/cuda/12.2.1/local_installers/cuda_12.2.1_535.86.10_linux.run
+   $ wget https://developer.download.nvidia.com/compute/cuda/12.2.1/local_installers/cuda_12.2.1_535.86.10_linux.run -O /tmp/cuda.run
    ```
 
 3. Install the CUDA toolkit:
 
    ```bash
-   sudo sh cuda_12.2.1_535.86.10_linux.run
+   cd /tmp
+   sudo chmod +x cuda.run
+   sudo ./cuda.run
    ```
