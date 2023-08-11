@@ -6,7 +6,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
      
       `g++` supports C++17 since version 7, so you should have a `g++` version >= 7. Do not worry about the OpenMP requirement, OpenMP 4.5 is fully supported since `g++` version 6.
         
-      In Ubuntu `22.04`, the `g++` version is `11.4.0`, which complies with both requirements, to install it along with CMake, which is also needed, run:
+      In Ubuntu `20.04`, the `g++` version is `11.4.0`, which complies with both requirements, to install it along with CMake, which is also needed, run:
 
       ```bash
       $ sudo apt install g++ build-essential git cmake
