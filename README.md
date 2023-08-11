@@ -36,7 +36,7 @@ Contents
 
 
 * **Maths**
-  * [Intel MKL](intel-mkl): guide to intall [Intel Math Kernel Library] in Ubuntu/Debian.
+  * [Intel MKL](intel-mkl): guide to intall [Intel Math Kernel Library](https://en.wikipedia.org/wiki/Math_Kernel_Library) in Ubuntu/Debian.
 
  
 * **Miscellaneous**
