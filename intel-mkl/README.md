@@ -4,10 +4,7 @@ Install Intel MKL in Ubuntu:
 
    ```bash
    $ sudo apt install -y wget
-   $ cd /tmp
-   $ wget https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
-   $ apt-key add GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
-   $ rm GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+   $ wget -O- https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB | gpg --dearmor | sudo tee /usr/share/keyrings/oneapi-archive-keyring.gpg
    ```
 
 2. Add the `apt` repository:
