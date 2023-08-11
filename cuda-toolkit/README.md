@@ -43,4 +43,4 @@ Before you install the CUDA toolkit, you need to install the NVIDIA driver, to d
    Click `Install` to install the CUDA toolkit.
    
 
-5. Delete the cuda installation file: `$ rm /tmp/cuda.run`
+5. Delete the CUDA installation file: `$ rm /tmp/cuda.run`
