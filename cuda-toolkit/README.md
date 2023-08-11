@@ -9,7 +9,7 @@ Before you install the CUDA toolkit, you need to install the NVIDIA driver, to d
 
    ![Screenshot 2023-08-11 at 18 24 45](https://github.com/luiscarlosgph/how-to/assets/3996630/da4183b6-a081-496e-a52d-adc46f7713ea)
 
-   Click on the version youw want, you will see something like this:
+   Click on the version you want, you will see something like this:
 
    ![Screenshot 2023-08-11 at 18 27 28](https://github.com/luiscarlosgph/how-to/assets/3996630/0344480b-3c71-42f1-9c4e-fb876aa651b8)
 
