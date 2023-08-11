@@ -30,11 +30,15 @@ Before you install the CUDA toolkit, you need to install the NVIDIA driver, to d
    $ sudo ./cuda.run  # This command takes a bit of time to run, do not worry :)
    ```
 
-   When you run this command on your terminal, you will see something like what is shown in these screenshots (follow the steps in them):
+   When you run this command on your terminal, you will see something like what is shown in the screenshots bellow, follow the same steps:
 
    ![Screenshot 2023-08-11 at 18 49 43](https://github.com/luiscarlosgph/how-to/assets/3996630/661f3bbd-d09b-4aca-a9a9-60efe01b65a2)
 
-   It is very important that you untick the checkbox that installs the driver, if you have followed this guide your NVIDIA driver is already installed.
+   ![Screenshot 2023-08-11 at 18 50 05](https://github.com/luiscarlosgph/how-to/assets/3996630/0f1bac1e-85c5-465e-a91d-2e9123b0560a)
+
+   ![Screenshot 2023-08-11 at 18 50 43](https://github.com/luiscarlosgph/how-to/assets/3996630/cd162f1b-4441-4d41-b638-0df65c141b5e)
+
+   **It is very important that you untick the checkbox of the driver**, if you have followed this guide your NVIDIA driver is already installed.
    
 
-4. Delete the cuda installation file: `$ rm /tmp/cuda.run`
+5. Delete the cuda installation file: `$ rm /tmp/cuda.run`
