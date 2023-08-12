@@ -14,7 +14,18 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
         
       * A BLAS implementation (use Intel MKL for best performance), see [this](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) tutorial on how to install it.
       * CUDA toolkit, see [this](https://github.com/luiscarlosgph/how-to/tree/main/cuda-toolkit) tutorial on how to install it.
-      * Python 3 with numpy: if you do not have it already, you could install any Python 3 version >= 3.10 following [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial, and then install numpy with `pip install numpy`.
+      * Python 3 with numpy: if you do not have it already, you could install any Python 3 version >= 3.10 following [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial, and then install numpy with `$ pip install numpy`.
+   
+    * Install the last version of CMake:
+       * Delete current versions of CMake: `$ sudo apt remove --purge --auto-remove cmake`
+       * Download CMake: `$ git clone https://github.com/Kitware/CMake.git`
+       * Choose the last stable release: `$ git checkout v3.27.2`
+       * Install it:
+          ```bash
+          $ ./bootstrap
+          $ make -j
+          $ sudo make install
+          ``` 
 
 
 2. Download faiss: `$ git clone https://github.com/facebookresearch/faiss.git`
