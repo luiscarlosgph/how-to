@@ -40,10 +40,10 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
    $ mkdir build
    $ cd build
    $ cmake -DFAISS_ENABLE_GPU=ON -DFAISS_ENABLE_PYTHON=ON -DBUILD_TESTING=ON -DBUILD_SHARED_LIBS=ON -DFAISS_ENABLE_C_API=ON -DCMAKE_BUILD_TYPE=Release -DFAISS_OPT_LEVEL=avx2 -DBLA_VENDOR=Intel10_64_dyn -DMKL_LIBRARIES=/path/to/mkl/libs -DBLA_VENDOR=Intel10_64_dyn -DMKL_LIBRARIES=/opt/intel/oneapi/mkl/latest/lib -DCUDAToolkit_ROOT=/usr/local/cuda -DPython_EXECUTABLE=/home/luis/.pyenv/shims/python ..
-   $ make -C build -j faiss
-   $ make -C build -j swigfaiss
+   $ make -j faiss
+   $ make -j swigfaiss
    $ (cd build/faiss/python && python setup.py install)
-   $ make -C build install
+   $ sudo make install
    ```
 
 
