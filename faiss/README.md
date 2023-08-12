@@ -21,6 +21,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
        * Download CMake: `$ git clone https://github.com/Kitware/CMake.git`
        * Choose the last stable release: `$ git checkout v3.27.2`
        * Install it:
+
       
           ```bash
           $ ./bootstrap
