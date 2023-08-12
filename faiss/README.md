@@ -19,7 +19,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
     * Install the last version of CMake:
        * Delete current versions of CMake: `$ sudo apt remove --purge --auto-remove cmake`
        * Download CMake: `$ git clone https://github.com/Kitware/CMake.git`
-       * Choose the last stable release: `$ git checkout v3.27.2`
+       * Choose the last stable release (you can find the last stable release [here](https://github.com/Kitware/CMake/releases)): `$ git checkout v3.27.2`
        * Install it:
 
       
