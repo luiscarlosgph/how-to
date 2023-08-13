@@ -4,7 +4,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
 1. Install the dependencies:
    * A C++17 compiler (with support for OpenMP version 2 or higher):
      
-      `g++` supports C++17 since version 7, so you should have a `g++` version >= 7. Do not worry about the OpenMP requirement, OpenMP 4.5 is fully supported since `g++` version 6.
+      `g++` supports C++17 since version 7, so you should have a `g++` version >= 7. Do not worry about the OpenMP requirement, OpenMP 4.5 is fully supported since `g++` version 6. To install it run:
         
       <!--In Ubuntu `20.04`, the `g++` version is `X.X.X`, which complies with both requirements, to install it along with CMake, which is also needed, run: -->
 
