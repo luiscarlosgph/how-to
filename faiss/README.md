@@ -50,7 +50,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
 4. Run the test suite to check that it works:
 
    ```bash
-   $ make -C build test
+   $ make test
    $ (cd build/faiss/python && python setup.py build)
    $ PYTHONPATH="$(ls -d ./build/faiss/python/build/lib*/)" pytest tests/test_*.py
    ```
