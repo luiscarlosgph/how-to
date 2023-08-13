@@ -33,7 +33,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
 2. Download faiss: `$ git clone https://github.com/facebookresearch/faiss.git`
 
 
-3. Choose the last release (you can find the last release version [here](https://github.com/facebookresearch/faiss/releases)):
+3. Inatall the last release (you can find the last release version [here](https://github.com/facebookresearch/faiss/releases)):
    ```bash
    $ cd faiss
    $ git checkout v1.7.4
