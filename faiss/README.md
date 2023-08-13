@@ -9,7 +9,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
       In Ubuntu `20.04`, the `g++` version is `X.X.X`, which complies with both requirements, to install it along with CMake, which is also needed, run:
 
       ```bash
-      $ sudo apt install g++ build-essential git cmake
+      $ sudo apt install -y build-essential g++ git
       ```
         
       * A BLAS implementation (use Intel MKL for best performance), see [this](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) tutorial on how to install it.
