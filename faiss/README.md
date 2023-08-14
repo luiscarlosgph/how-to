@@ -43,17 +43,24 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
 
 
 3. Install the last release (you can find the last release version [here](https://github.com/facebookresearch/faiss/releases)):
+
    ```bash
    $ cd faiss
    $ git checkout v1.7.4
    $ mkdir build
    $ cd build
-   $ cmake -DFAISS_ENABLE_GPU=ON -DFAISS_ENABLE_PYTHON=ON -DBUILD_TESTING=ON -DBUILD_SHARED_LIBS=ON -DFAISS_ENABLE_C_API=ON -DCMAKE_BUILD_TYPE=Release -DFAISS_OPT_LEVEL=avx2 -DBLA_VENDOR=Intel10_64_dyn -DBLA_VENDOR=Intel10_64_dyn -DMKL_LIBRARIES=/opt/intel/oneapi/mkl/latest/lib/intel64 -DCUDAToolkit_ROOT=/usr/local/cuda -DPython_EXECUTABLE=$HOME/.pyenv/shims/python -DPython_INCLUDE_DIRS=$HOME/.pyenv/versions/3.10.12/include -DPython_LIBRARIES=$HOME/.pyenv/versions/3.10.12/lib ..
+   $ cmake -DFAISS_ENABLE_GPU=ON -DFAISS_ENABLE_PYTHON=ON -DBUILD_TESTING=ON -DBUILD_SHARED_LIBS=ON -DFAISS_ENABLE_C_API=ON -DCMAKE_BUILD_TYPE=Release -DFAISS_OPT_LEVEL=avx2 -DBLA_VENDOR=Intel10_64_dyn -DBLA_VENDOR=Intel10_64_dyn -DMKL_LIBRARIES="-L/opt/intel/oneapi/mkl/latest/lib/intel64 -lmkl_core -lmkl_sequential" -DCUDAToolkit_ROOT=/usr/local/cuda -DPython_EXECUTABLE=$HOME/.pyenv/shims/python -DPython_INCLUDE_DIRS=$HOME/.pyenv/versions/3.10.12/include -DPython_LIBRARIES=$HOME/.pyenv/versions/3.10.12/lib ..
    $ make -j faiss
    $ make -j swigfaiss
    $ sudo make install
    $ cd faiss/python && python setup.py install
    ```
+
+   The `$ cmake` line above assumes that:
+      1. You are using `pyenv` (as shown [here](https://github.com/luiscarlosgph/how-to/tree/main/pyenv)) with Python 3.10.12
+      2. You have your MKL libraries located in `/opt/intel/oneapi/mkl/latest/lib/intel64`.
+
+   If you have a different configuration in your system, you have to modify the CMake variables accordingly.
 
 <!--
 4. Run the test suite to check that it works:
