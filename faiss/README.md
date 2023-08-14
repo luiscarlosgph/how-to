@@ -2,6 +2,14 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
 -------------------------------------------------------------------------------------------------------
 
 1. Install the dependencies:
+          
+   * A C++17 compiler (with support for OpenMP version 2 or higher):
+     
+      `g++` supports C++17 since version 7, so you should have a `g++` version >= 7. Do not worry about the OpenMP requirement, OpenMP 4.5 is fully supported since `g++` version 6. To install it run:
+
+      ```bash
+      $ sudo apt install -y build-essential g++ git
+      ```
 
    * Install the last version of CMake:
        * Delete current versions of CMake: `$ sudo apt remove --purge --auto-remove cmake`
@@ -15,16 +23,6 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
           $ make -j
           $ sudo make install
           ```
-          
-   * A C++17 compiler (with support for OpenMP version 2 or higher):
-     
-      `g++` supports C++17 since version 7, so you should have a `g++` version >= 7. Do not worry about the OpenMP requirement, OpenMP 4.5 is fully supported since `g++` version 6. To install it run:
-        
-      <!--In Ubuntu `20.04`, the `g++` version is `X.X.X`, which complies with both requirements, to install it along with CMake, which is also needed, run: -->
-
-      ```bash
-      $ sudo apt install -y build-essential g++ git
-      ```
         
    * A BLAS implementation (use Intel MKL for best performance), see [this](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) tutorial on how to install it.
    
@@ -39,10 +37,10 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
          ```
 
    
-2. Download faiss: `$ git clone https://github.com/facebookresearch/faiss.git`
+1. Download faiss: `$ git clone https://github.com/facebookresearch/faiss.git`
 
 
-3. Install the last release (you can find the last release version [here](https://github.com/facebookresearch/faiss/releases)):
+2. Install the last release (you can find the last release version [here](https://github.com/facebookresearch/faiss/releases)):
 
    ```bash
    $ cd faiss
