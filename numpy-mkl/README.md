@@ -5,7 +5,7 @@ This tutorial explains how to install numpy linked to [Intel MKL](https://en.wik
 
 Numpy usually comes linked to [OpenBLAS](https://www.openblas.net). Intel MKL is faster, that is the point of this tutorial.
 
-1. Install Intel MKL as shown [here](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) and then make it visible:
+1. Install Intel MKL as shown [here](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) and make the libraries visible to [ld](https://linux.die.net/man/1/ld):
 
    ```bash
    $ export LD_LIBRARY_PATH=/opt/intel/oneapi/mkl/latest/lib/intel64:${LD_LIBRARY_PATH}
