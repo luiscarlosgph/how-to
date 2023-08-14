@@ -31,7 +31,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
    * CUDA toolkit, see [this](https://github.com/luiscarlosgph/how-to/tree/main/cuda-toolkit) tutorial on how to install it.
    
    * Python >= 3.10 with NumPy-MKL:
-      * To install if Python 3 version >= 3.10 follow [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial.
+      * To install Python version >= 3.10 follow [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial.
       * To NumPy with MKL support: 
 
          ```bash
