@@ -32,7 +32,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
    
    * Python >= 3.10 with NumPy-MKL:
       * To install Python version >= 3.10 follow [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial.
-      * To NumPy with MKL support: 
+      * To install NumPy with MKL support: 
 
          ```bash
          $ TODO
