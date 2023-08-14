@@ -55,7 +55,7 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
    ```
 
    The `$ cmake` line above assumes that:
-      1. You are using `pyenv` (as shown [here](https://github.com/luiscarlosgph/how-to/tree/main/pyenv)) with Python 3.10.12
+      1. You are using `pyenv` (as shown [here](https://github.com/luiscarlosgph/how-to/tree/main/pyenv)) with Python version `3.10.12`.
       2. You have your MKL libraries located in `/opt/intel/oneapi/mkl/latest/lib/intel64`.
 
    If you have a different configuration in your system, you have to modify the CMake variables accordingly.
