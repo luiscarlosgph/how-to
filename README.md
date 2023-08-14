@@ -37,6 +37,7 @@ Contents
 
 * **Maths**
   * [Intel MKL](intel-mkl): guide to intall [Intel Math Kernel Library](https://en.wikipedia.org/wiki/Math_Kernel_Library) in Ubuntu/Debian.
+  * [NumPy-MKL](numpy-mkl): guide to compile [NumPy](https://numpy.org) from source linked to [Intel MKL](https://en.wikipedia.org/wiki/Math_Kernel_Library).
   * [faiss-gpu](faiss): guide to install [faiss](https://github.com/facebookresearch/faiss).
 
  
