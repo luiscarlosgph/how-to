@@ -26,15 +26,18 @@ Install [faiss](https://github.com/facebookresearch/faiss) with GPU support, usu
       $ sudo apt install -y build-essential g++ git
       ```
         
-      * A BLAS implementation (use Intel MKL for best performance), see [this](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) tutorial on how to install it.
-      * CUDA toolkit, see [this](https://github.com/luiscarlosgph/how-to/tree/main/cuda-toolkit) tutorial on how to install it.
-      * Python >= 3.10 with NumPy-MKL:
-         * To install if Python 3 version >= 3.10 follow [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial.
-         * To NumPy with MKL support: 
+   * A BLAS implementation (use Intel MKL for best performance), see [this](https://github.com/luiscarlosgph/how-to/tree/main/intel-mkl) tutorial on how to install it.
+   
+   * CUDA toolkit, see [this](https://github.com/luiscarlosgph/how-to/tree/main/cuda-toolkit) tutorial on how to install it.
+   
+   * Python >= 3.10 with NumPy-MKL:
+      * To install if Python 3 version >= 3.10 follow [this](https://github.com/luiscarlosgph/how-to/tree/main/pyenv) tutorial.
+      * To NumPy with MKL support: 
 
-            ```bash
-            TODO
-            ```
+         ```bash
+         $ TODO
+         ```
+
    
 2. Download faiss: `$ git clone https://github.com/facebookresearch/faiss.git`
 
