@@ -26,7 +26,14 @@ Install Intel MKL in Ubuntu:
    ```
 
 
-3. Make the Intel MKL libraries visible to [ld](https://linux.die.net/man/1/ld) adding the following line at the end of your `$HOME/.bashrc` (if you use bash) or `$HOME/.zshrc` (if you use zsh):
+3. Make the Intel MKL headers visible to the C/C++ compiler adding the following line at the end of your `$HOME/.bashrc` (if you use bash) or `$HOME/.zshrc` (if you use zsh):
+
+   ```bash
+   $ export CPATH=/opt/intel/oneapi/mkl/latest/include:${CPATH}
+   ```
+
+
+4. Make the Intel MKL libraries visible to [ld](https://linux.die.net/man/1/ld) adding the following line at the end of your `$HOME/.bashrc` (if you use bash) or `$HOME/.zshrc` (if you use zsh):
 
    ```bash
    $ export LD_LIBRARY_PATH=/opt/intel/oneapi/mkl/latest/lib/intel64:${LD_LIBRARY_PATH}
