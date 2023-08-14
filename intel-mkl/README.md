@@ -24,3 +24,9 @@ Install Intel MKL in Ubuntu:
    ```bash
    $ sudo apt install intel-basekit intel-hpckit intel-iotkit intel-dlfdkit intel-aikit intel-renderkit
    ```
+
+3. Make the Intel MKL libraries visible to [ld](https://linux.die.net/man/1/ld) adding the following line at the end of your `$HOME/.bashrc` (if you use bash) or `$HOME/.zshrc` (if you use zsh):
+
+   ```bash
+   $ export LD_LIBRARY_PATH=/opt/intel/oneapi/mkl/latest/lib/intel64:${LD_LIBRARY_PATH}
+   ```
