@@ -6,7 +6,7 @@ Autossh in Mac OS X
    $ brew install autossh
    ```
 
-2. Change `SSHConnectionHere` by the name of your SSH connection and `UsernameHere` and save this file to `/Library/LaunchDaemons/com.autossh.app`:
+2. Change `SSHConnectionHere` by the name of your SSH connection and `UsernameHere` and save this file to `/Library/LaunchDaemons/local.autossh.plist`:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -14,7 +14,7 @@ Autossh in Mac OS X
    <plist version="1.0">
    <dict>
      <key>Label</key>
-     <string>com.autossh.app</string>
+     <string>local.autossh.app</string>
      <key>KeepAlive</key>
      <true/>
      <key>RunAtLoad</key>
