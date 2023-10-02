@@ -28,6 +28,7 @@ Contents
   * [SystemD service](service): guide that explains how to create a service that runs a command at boot.
   * [LUKS](luks): hard disk encryption tutorial.
   * [xournal](xournal): totorial explaining how to fill and sign a document in Ubuntu.
+  * [autossh](autossh): guide on how to setup autossh.
 
  
 * **Hardware platforms**
