@@ -6,7 +6,7 @@ Autossh in Mac OS X
    $ brew install autossh
    ```
 
-2. Change `your.server.com` by the name of your SSH connection and save this file to ``:
+2. Change `WriteTheNameOfYourSSHConnectionHere` by the name of your SSH connection and `WriteYourUsernameHere` and save this file to `/Library/LaunchDaemons/com.autossh.app`:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
