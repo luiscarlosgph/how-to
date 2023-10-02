@@ -14,7 +14,7 @@ Autossh in Mac OS X
    <plist version="1.0">
    <dict>
      <key>Label</key>
-     <string>local.autossh.app</string>
+     <string>local.autossh</string>
      <key>KeepAlive</key>
      <true/>
      <key>RunAtLoad</key>
