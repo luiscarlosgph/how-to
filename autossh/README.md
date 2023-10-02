@@ -6,7 +6,7 @@ Autossh in Mac OS X
    $ brew install autossh
    ```
 
-2. Change `WriteTheNameOfYourSSHConnectionHere` by the name of your SSH connection and `WriteYourUsernameHere` and save this file to `/Library/LaunchDaemons/com.autossh.app`:
+2. Change `SSHConnectionHere` by the name of your SSH connection and `UsernameHere` and save this file to `/Library/LaunchDaemons/com.autossh.app`:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -20,7 +20,7 @@ Autossh in Mac OS X
      <key>RunAtLoad</key>
      <true/>
      <key>UserName</key>
-     <string>WriteYourUsernameHere</string>
+     <string>UsernameHere</string>
      <key>ProgramArguments</key>
      <array>
        <string>/usr/local/bin/autossh</string>
@@ -41,7 +41,7 @@ Autossh in Mac OS X
        <string>-o</string>
        <string>ServerAliveCountMax 3</string>
 
-       <string>WriteTheNameOfYourSSHConnectionHere</string>
+       <string>SSHConnectionHere</string>
      </array>
    </dict>
    </plist>
