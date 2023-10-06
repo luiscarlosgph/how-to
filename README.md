@@ -64,6 +64,7 @@ Contents
   * [no-ip](no-ip-duc): manual that explains how to set up the No-IP client to update the domain associated to a dynamic IP.
   * [godaddy](godaddy): manual that explains how update a GoDaddy domain automatically from a PC that has a dynamic IP.
   * [network-bridge](network-bridge): explains how to bridge two network interfaces.
+  * [ftp](ftp): guide to show how to deploy an FTP server.
 
 
 * **Shell**
