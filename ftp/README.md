@@ -6,8 +6,8 @@ This guide shows how to quickly deploy an FTP server to share files in a local n
 * Use case: you are in a WiFi network and want to share a file from a Mac to a Windows but do not have USB sticks.
 
 
-Inatall and configure FTP server on a Mac
------------------------------------------
+Inatall and run FTP server
+--------------------------
 
 1. Install Python 3 if you do not have it. You have a simple tutorial to install it [here](https://github.com/luiscarlosgph/how-to/tree/main/pyenv).
 
