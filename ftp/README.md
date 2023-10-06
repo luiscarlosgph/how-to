@@ -20,11 +20,13 @@ Inatall and configure FTP server on a Mac
    ```bash
    $ python3 -m pyftpdlib -p 2121 -d Public
    ```
-   * `-p` indicates the listening port.
+   * `-p` indicates the listening port. Make sure to allow the connection in your firewall.
    * `-d` the path to the directory that will be shared via FTP.
 
 4. Get your IP address from `System Settings` -> `Wi-Fi` -> `Details` -> `TCP/IP` -> `IP address`. 
 
-5. Connect to `ftp://<ip_address>:2121` from your other computer. For example, `ftp://192.168.0.124:2121`.
-   I use [Cyberduck](https://cyberduck.io/) as FTP client, but you can use whichever your prefer, including
-   the one that comes natively with Windows and Mac.
+5. Connect to `ftp://<ip_address>:<port>` from your other computer (e.g. `ftp://192.168.0.124:2121`).
+   
+   * In Windows: type `ftp://<ip_address>:<port>` in the Windows file explorer.
+   * In Mac: in Finder -> `Go` -> `Connect to Server...`
+   * Other option: use [Cyberduck](https://cyberduck.io/)
