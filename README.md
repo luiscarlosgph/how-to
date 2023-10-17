@@ -29,6 +29,7 @@ Contents
   * [LUKS](luks): hard disk encryption tutorial.
   * [xournal](xournal): totorial explaining how to fill and sign a document in Ubuntu.
   * [autossh](autossh): guide on how to setup autossh.
+  * [Remote virtual screen](xvfb): guide on how to run a virtual screen on a headless computer and access it remotely via ssh.
 
  
 * **Hardware platforms**
