@@ -25,7 +25,7 @@ Run virtual screen in remote server
 3. Launch VNC server:
 
    ```bash
-   $ x11vnc -display :22 -rfbport 5900
+   $ x11vnc -display :22 -rfbport 5900 -many
    ```
 
 
