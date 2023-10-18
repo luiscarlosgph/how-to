@@ -54,5 +54,5 @@ Access remote screen from local computer
    $ ssh -L ssh -L 50900:127.0.0.1:5900 <remote_server_hostname>
    ```
    
-2. Open your favourite VNC client and connect to `127.0.0.1:5900`, you should see the virtual screen in the server displaying `xlock`. As VNC client, you can use [RealVNC](https://www.realvnc.com/en/connect/download/viewer), which is free and multi-platform.
+2. Open your favourite VNC client and connect to `127.0.0.1:50900`, you should see the virtual screen in the server displaying `xlock`. As VNC client, you can use [RealVNC](https://www.realvnc.com/en/connect/download/viewer), which is free and multi-platform.
 
