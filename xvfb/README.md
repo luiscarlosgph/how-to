@@ -35,7 +35,7 @@ Run a graphical program in your remote screen
 > **_NOTE:_**  These commands should be executed in your remote server via SSH.
 
 As an example, we will run `xclock`, a GUI that displays a clock. This program comes within the `x11-apps` package, so we install it first.
-Then, to run a program with GUI in the virtual screen, we must set the `DISPLAY` environment variable pointing to the display number chosen for the virtual screen when we launched `Xvfb` (which is `:22` in our case).
+Then, to run a program with GUI in the virtual screen, we must set the `DISPLAY` environment variable pointing to the display number chosen for the virtual screen (which is `:22` in our case, see `Xvfb` command above).
 
    ```bash
    $ sudo apt install x11-apps
