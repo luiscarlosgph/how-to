@@ -17,7 +17,8 @@ Run virtual screen
 1. Run virtual screen with `xvfb`:
 
    ```bash
-   $ Xvfb :22 -screen 0 1920x1080x24 -ac +extension GLX +render +iglx -noreset
+   $ Xvfb :22 -screen 0 1920x1080x24 -ac +extension GLX +render +iglx -noreset &
+   $ disown
    ```
 
 2. Launch VNC server:
