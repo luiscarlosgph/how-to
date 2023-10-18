@@ -15,7 +15,7 @@ These commands should be executed in your remote server via SSH.
    $ sudo apt install x11vnc xvfb
    ```
 
-2. Run virtual screen with `xvfb`:
+2. Run virtual screen with `Xvfb`:
 
    ```bash
    $ Xvfb :22 -screen 0 1920x1080x24 -ac +extension GLX +render +iglx -noreset &
