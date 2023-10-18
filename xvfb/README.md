@@ -1,7 +1,7 @@
 Description
 -----------
 
-This guide explains how to run a virtual screen in a headless server and access it remotely via SSH.
+This guide explains how to create a virtual screen in a remote server (accessible via SSH) that does not have a real screen and run prgrams with GUI on it.
 
 
 Run virtual screen in remote server
