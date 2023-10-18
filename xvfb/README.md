@@ -17,5 +17,11 @@ Run virtual screen
 1. Run virtual screen with `xvfb`:
 
    ```bash
-   $ TODO
+   $ Xvfb :22 -screen 0 1920x1080x24 -ac +extension GLX +render +iglx -noreset
+   ```
+
+2. Launch VNC server:
+
+   ```bash
+   $ x11vnc -display :22
    ```
