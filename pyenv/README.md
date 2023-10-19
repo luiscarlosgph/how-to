@@ -12,29 +12,41 @@ $ sudo apt install build-essential vim git wget curl python zlib1g-dev libbz2-de
 Install `pyenv` for your user
 ---------------------------
 1. Download **pyenv**:
-```bash
-$  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-```
+   ```bash
+   $  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+   ```
 
 2. Configure your terminal to use `pyenv`: add the following lines at the end of your `~/.bashrc` (if you use **bash**) or `~/.zshrc` (if you use **zsh**) 
-```bash
-export PYENV_ROOT="$HOME/.pyenv"                                                
-export PATH="$PYENV_ROOT/bin:$PATH"                                             
-eval "$(pyenv init --path)" 
-```
-For changes to take effect run `$ source ~/.bashrc` (if you use **bash**) or `$ source ~/.zshrc` (if you use **zsh**). Alternatively, you can close your terminal and open it again.
+   ```bash
+   export PYENV_ROOT="$HOME/.pyenv"                                                
+   export PATH="$PYENV_ROOT/bin:$PATH"                                             
+   eval "$(pyenv init --path)" 
+   ```
+   For changes to take effect run `$ source ~/.bashrc` (if you use **bash**) or `$ source ~/.zshrc` (if you use **zsh**). Alternatively, you can close    your terminal and open it again.
 
-If you have no idea which terminal you use, run: `$ echo $SHELL`.
+   If you have no idea which terminal you use, run: `$ echo $SHELL`.
+
+3. Open a new terminal and install the most recent Python version, which you can check [here](https://www.python.org/downloads).
+
+   ```bash
+   $ pyenv install 3.12.0
+   ```
+  
+4. Choose the newly installed Python version as the one to be used by `pyenv`:
+   
+   ```bash
+   $ pyenv global 3.12.0
+   ```
 
 Usage
 -----
 * Get the list of Python versions installed in your system: `$ pyenv versions`
 * Get the list of Python versions that you could possibly install: `$ pyenv install -l`
-* Download and install a new version of Python: `$ pyenv install 3.9.13`
-* Change Python version for your user: `$ pyenv global 3.9.13`
-* Change Python version, **only** for your current terminal: `$ pyenv shell 3.9.13`
+* Download and install a new version of Python: `$ pyenv install 3.12.0`
+* Change Python version for your user: `$ pyenv global 3.12.0`
+* Change Python version, **only** for your current terminal: `$ pyenv shell 3.12.0`
 * Get the Python version that `pyenv` is currently using: `$ pyenv version`
-* Uninstall one of the Python versions: `$ pyenv uninstall 3.9.13`
+* Uninstall one of the Python versions: `$ pyenv uninstall 3.12.0`
 
 FAQ
 ---
