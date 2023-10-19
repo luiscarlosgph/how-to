@@ -26,7 +26,7 @@ Install `pyenv` for your user
 
    If you have no idea which terminal you use, run: `$ echo $SHELL`.
 
-3. Open a new terminal and install the most recent Python version, which you can check [here](https://www.python.org/downloads).
+3. Open a new terminal and install the most recent Python version (you can check the last version number [here](https://www.python.org/downloads).
 
    ```bash
    $ pyenv install 3.12.0
