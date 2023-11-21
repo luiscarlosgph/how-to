@@ -102,4 +102,6 @@ Classic situation where you have a lot of Docker containers and they occupy all 
      "data-root": "/new_data_dir"
    }
    ```
+5. Reboot
+6. Check that Docker works properly and delete your previous data directory: `$ sudo rm -r /var/docker/lib`
 
