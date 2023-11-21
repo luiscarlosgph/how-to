@@ -94,7 +94,7 @@ Classic situation where you have a lot of Docker containers and they occupy all 
 
 1. Stop Docker daemon: `$ sudo systemctl stop docker && sudo systemctl stop docker.socket && sudo systemctl stop containerd`
 2. Create your new Docker data directory: `$ sudo mkdir -p /new_data_dir`
-3. Copy your Docker data to the new data directory: `$ rsync -vah --progress /var/lib/docker/ /new_data/dir/`
+3. Copy your Docker data to the new data directory: `$ rsync -vah --progress /var/lib/docker/ /new_data_dir/`
 4. Edit the file `/etc/docker/daemon.json` and add:
 
    ```
