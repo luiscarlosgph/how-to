@@ -86,3 +86,11 @@ More info on the previous command [here](https://nvidia.github.io/libnvidia-cont
     
     PS, you do not need to use the same password everywhere, you can use [KeePassX](https://www.keepassx.org) to store all your passwords. You can save the encrypted password file (\*.kdbx) in Dropbox and open it from all your devices, also from your iPhone (Strongbox app) and your Android (Keepass2Android app).
 
+
+How to change the location of the Docker container data
+-------------------------------------------------------
+
+Classic situation where you have a lot of Docker containers and they occupy all the space in your drive. This is how to change the location:
+
+1. TODO
+
