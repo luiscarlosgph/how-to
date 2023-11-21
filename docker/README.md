@@ -92,8 +92,6 @@ How to change the location of the Docker container data
 
 Classic situation where you have a lot of Docker containers and they occupy all the space in your drive. This is how to change the location:
 
-TODO
-
 1. Stop Docker daemon: `$ sudo systemctl stop docker && sudo systemctl stop docker.socket && sudo systemctl stop containerd`
 2. Create your new Docker data directory: `$ sudo mkdir -p /new_data_dir`
 3. Copy your Docker data to the new data directory: `$ rsync -vah --progress /var/lib/docker/ /new_data/dir/`
