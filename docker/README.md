@@ -99,7 +99,7 @@ Classic situation where you have a lot of Docker containers and they occupy all 
 
    ```
    {
-     "data-root": "/new_data_dir"
+     "data-root": "/new_data_dir/docker"
    }
    ```
 5. Reboot or restart Docker daemon with `$ sudo systemctl start docker`
