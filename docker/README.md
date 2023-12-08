@@ -106,3 +106,19 @@ Classic situation where you have a lot of Docker containers and they occupy all 
 6. Check that Docker works properly with `$ docker info -f '{{ .DockerRootDir}}'`
 7. Delete your previous data directory: `$ sudo rm -r /var/lib/docker`
 
+
+How to run a Docker container of Ubuntu from Mac
+------------------------------------------------
+
+1. Run a Docker container with Ubuntu:
+   ```bash
+   $ docker pull ubuntu:jammy
+   $ docker run --name dev -v /Users:/home ubuntu:jammy /bin/bash -c "apt update && apt install sudo -y && adduser --uid $(id -u) --gid $(id -g)    --disabled-password --gecos '' --no-create-home $USER && usermod -a -G sudo $USER && echo \"$USER ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers && sleep infinity" &
+   ```
+   This command looks like it gets stuck, just press Enter and you will get your terminal back.
+
+2. Get a terminal of the Ubuntu container:
+   ```
+   $ docker exec -it --user $(id -u):$(id -g) dev /bin/bash
+   ```
+   Inside the container you have your Mac's home mounted on `/home/<username>` and you should be able to use sudo without issues.
