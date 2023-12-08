@@ -121,7 +121,7 @@ You need to install Docker first, download it from [the Docker website](https://
 3. Run a Docker container with Ubuntu:
 
    ```bash
-   $ docker run --name dev -v /Users:/home ubuntu:jammy /bin/bash -c "apt update && apt install sudo -y && adduser --uid $(id -u) --gid $(id -g)    --disabled-password --gecos '' --no-create-home $USER && usermod -a -G sudo $USER && echo \"$USER ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers && sleep infinity" &
+   $ docker run --name dev --hostname dev -v /Users:/home ubuntu:jammy /bin/bash -c "apt update && apt install sudo -y && adduser --uid $(id -u) --gid $(id -g)    --disabled-password --gecos '' --no-create-home $USER && usermod -a -G sudo $USER && echo \"$USER ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers && sleep infinity" &
    ```
    
    This command looks like it gets stuck, just press Enter and you will get your terminal back.
