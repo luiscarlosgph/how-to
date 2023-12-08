@@ -110,7 +110,7 @@ Classic situation where you have a lot of Docker containers and they occupy all 
 How to run a Docker container of Ubuntu from Mac
 ------------------------------------------------
 
-You need to install Docker downloading it from [the Docker website](https://docs.docker.com/desktop/install/mac-install/).
+You need to install Docker first, download it from [the Docker website](https://docs.docker.com/desktop/install/mac-install/).
 
 1. Download the image of Ubuntu 22.04 LTS:
 
