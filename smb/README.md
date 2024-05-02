@@ -2,7 +2,9 @@ Configure a Samba server in Ubuntu/Debian
 -----------------------------------------
 
 * In the <strong>server</strong>:
+  
   1. Install the Samba server: `$ sudo apt install samba`
+     
   2. Edit `/etc/samba/smb.conf` and add:
     
     ```
@@ -33,6 +35,7 @@ Configure a Samba server in Ubuntu/Debian
        directory mask = 0700
        valid users = <your_username_in_the_server>
     ```
+    
   3. Add your user to the list of samba users: `$ sudo smbpasswd -a <your_username_in_the_server>`
 
 * In the <strong>client</strong>:
