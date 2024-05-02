@@ -66,6 +66,7 @@ Contents
   * [godaddy](godaddy): manual that explains how update a GoDaddy domain automatically from a PC that has a dynamic IP.
   * [network-bridge](network-bridge): explains how to bridge two network interfaces.
   * [ftp](ftp): guide to show how to deploy an FTP server.
+  * [samba](smb): guide to how how to deploy a Samba server.
 
 
 * **Shell**
