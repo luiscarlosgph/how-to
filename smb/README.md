@@ -63,10 +63,11 @@ Configure a Samba server in Ubuntu/Debian
   6. Mount the remote share:
      
      ```
-     $ sudo mount -t cifs -o credentials=/etc/samba-credentials //<your_server_ip>/<your_share_name> <mount_point>
+     $ sudo mount -t cifs -o credentials=/etc/samba-credentials,uid=1000,gid=1000 //<your_server_ip>/<your_share_name> <mount_point>
      ```
+     The `uid` and the `gid` should be the ones of your user in the client machine. You can see them running: `$ id`.
      
-  7. If you want to mount the share from boot, add this line to your `/etc/fstab`:
+  8. If you want to mount the share from boot, add this line to your `/etc/fstab`:
      
      ```
      TODO
