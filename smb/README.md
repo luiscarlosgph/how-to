@@ -24,7 +24,7 @@ Configure a Samba server in Ubuntu/Debian
        usershare max shares = 0
        usershare allow guests = no
 
-    [encrypted_data]
+    [<your_share_name>]
        comment = <Write something about your share here>
        path = <the_path_you_want_to_share>
        browseable = yes
