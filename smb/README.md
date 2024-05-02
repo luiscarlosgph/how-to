@@ -3,7 +3,7 @@ Configure a Samba server in Ubuntu/Debian
 
 * In the <strong>server</strong>:
   * Install the Samba server: `$ sudo apt install samba`
-  * Edit `$ sudo vim /etc/samba/smb.conf` and add:
+  * Edit `/etc/samba/smb.conf` and add:
     
     ```
     [global]
@@ -37,4 +37,8 @@ Configure a Samba server in Ubuntu/Debian
 
 * In the <strong>client</strong>:
   1. Install the Samba client: `$ sudo apt install cifs-utils`
-  2. TODO
+  2. Mount the remote share: `$ sudo mount -t cifs -o username=<your_username_in_the_server> //<your_server_ip>/<your_share_name> <mount_point>`
+  3. If you want to mount the share from boot, add this to your `/etc/fstab`:
+     ```
+     TODO
+     ```
