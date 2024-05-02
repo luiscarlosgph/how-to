@@ -36,15 +36,35 @@ Configure a Samba server in Ubuntu/Debian
   3. Add your user to the list of samba users: `$ sudo smbpasswd -a <your_username_in_the_server>`
 
 * In the <strong>client</strong>:
+  
   1. Install the Samba client:
+     
      ```
      $ sudo apt install cifs-utils
      ```
-  3. Mount the remote share:
+     
+  3. Create a credentials file `/etc/samba-credentials`:
+     
      ```
-     $ sudo mount -t cifs -o username=<your_username_in_the_server> //<your_server_ip>/<your_share_name> <mount_point>
+     username=<your_username_in_the_server>
+     password=<your_password_in_the_server>
      ```
-  5. If you want to mount the share from boot, add this to your `/etc/fstab`:
+     
+  4. Set the right permissions for the credentials file:
+
+     ```
+     $ sudo chown root: /etc/samba-credentials
+     $ sudo chmod 600 /etc/samba-credentials
+     ```
+     
+  6. Mount the remote share:
+     
+     ```
+     $ sudo mount -t cifs -o credentials=/etc/samba-credentials //<your_server_ip>/<your_share_name> <mount_point>
+     ```
+     
+  7. If you want to mount the share from boot, add this line to your `/etc/fstab`:
+     
      ```
      TODO
      ```
