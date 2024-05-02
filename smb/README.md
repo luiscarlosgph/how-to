@@ -1,7 +1,7 @@
 Configure a Samba server in Ubuntu/Debian
 -----------------------------------------
 
-* In the server:
+* In the <strong>server</strong>:
   * Install the Samba server: `$ sudo apt install samba`
   * Edit `$ sudo vim /etc/samba/smb.conf` and add:
     
@@ -35,6 +35,6 @@ Configure a Samba server in Ubuntu/Debian
     ```
   * Add your user to the list of samba users: `$ sudo smbpasswd -a <your_username_in_the_server>`
 
-* In the client:
+* In the <strong>client</strong>:
   1. Install the Samba client: `$ sudo apt install cifs-utils`
   2. TODO
