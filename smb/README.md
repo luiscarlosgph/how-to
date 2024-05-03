@@ -70,5 +70,5 @@ Configure a Samba server in Ubuntu/Debian
   8. If you want to mount the share from boot, add this line to your `/etc/fstab`:
      
      ```
-     //<your_server_ip>/<your_share_name>  <mount_point>  cifs  credentials=/etc/samba-credentials,uid=<your_uid>,gid=<your_gid>  0  0
+     //<your_server_ip>/<your_share_name>  <mount_point>  cifs  rw,user,credentials=/etc/samba-credentials,uid=<your_uid>,gid=<your_gid>  0  0
      ```
