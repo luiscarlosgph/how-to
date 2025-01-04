@@ -9,9 +9,12 @@ $ cd v4l2loopback/
 $ make && sudo make install
 $ sudo depmod -a
 $ cd
-$ sudo apt install liblog4cpp5-dev
+$ sudo apt install liblog4cpp5-dev cmake
 $ git clone https://github.com/mpromonet/libv4l2cpp.git
 $ cd libv4l2cpp/
+$ mkdir build
+$ cd build
+$ cmake ..
 $ make
 $ sudo mkdir /usr/include/libv4l2cpp/
 $ sudo make install
