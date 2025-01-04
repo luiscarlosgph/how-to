@@ -1,3 +1,22 @@
+Using the system daemon
+-----------------------
+
+1. Install the required packages: `$ sudo apt install ifupdown net-tools wireless-tools`
+   
+2. Edit `$ vim /lib/systemd/system/wpa_supplicant.service` and modify the command line accordingly: 
+
+```
+ExecStart=/usr/sbin/wpa_supplicant -u -s -iwlan0 -c/etc/wpa_supplicant.conf -O "DIR=/run/wpa_supplicant GROUP=netdev"
+```
+If your wireless device is not `wlan0` modify the line above accordingly. 
+
+3. Generate the configuration file: `$ wpa_passphrase "<essid>" "<password>" | sudo tee /etc/wpa_supplicant.conf
+
+4. TODO
+
+Standalone script
+-----------------
+
 Bash script to connect your Linux to a WPA/WPA2 network:
 
 ```
