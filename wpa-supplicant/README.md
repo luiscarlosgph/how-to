@@ -1,9 +1,13 @@
 Using the system daemon
 -----------------------
 
-1. Install the required packages: `$ sudo apt install ifupdown net-tools wireless-tools`
+1. Install the required packages:
+
+```
+$ sudo apt install ifupdown net-tools wireless-tools
+```
    
-2. Edit `$ vim /lib/systemd/system/wpa_supplicant.service` and modify the command line accordingly: 
+3. Edit `$ vim /lib/systemd/system/wpa_supplicant.service` and modify the command line accordingly: 
 
 ```
 ExecStart=/usr/sbin/wpa_supplicant -u -s -iwlan0 -c/etc/wpa_supplicant.conf -O "DIR=/run/wpa_supplicant GROUP=netdev"
