@@ -17,5 +17,5 @@ $ cd build
 $ cmake ..
 $ make
 $ sudo mkdir /usr/include/libv4l2cpp/
-$ sudo make install
+$ sudo cp liblibv4l2cpp.a /usr/include/libv4l2cpp/
 ```
