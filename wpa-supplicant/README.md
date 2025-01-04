@@ -14,9 +14,13 @@ Using the system daemon
    ```
    If your wireless device is not `wlan0` modify the line above accordingly. 
 
-3. Generate the configuration file: `$ wpa_passphrase "<essid>" "<password>" | sudo tee /etc/wpa_supplicant.conf
+3. Generate the configuration file:
 
-4. TODO
+```
+$ wpa_passphrase "<essid>" "<password>" | sudo tee /etc/wpa_supplicant.conf
+```
+
+6. TODO
 
 Standalone script
 -----------------
