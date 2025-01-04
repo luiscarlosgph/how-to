@@ -23,4 +23,8 @@ $ cmake ..
 $ make
 $ sudo mkdir /usr/include/libv4l2cpp/
 $ sudo cp liblibv4l2cpp.a /usr/include/libv4l2cpp/
+$ git clone https://github.com/mpromonet/v4l2tools.git
+$ cd v4l2tools/
+$ make
+$ sudo make install 
 ```
