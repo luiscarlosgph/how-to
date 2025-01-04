@@ -16,7 +16,7 @@ $ ./mediamtx
 3. Run ffmpeg:
 
 ```
-$ ffmpeg -i /dev/video1 -f rtsp rtsp://localhost:8554/mystream
+$ ffmpeg -f video4linux2 -video_size 1280x720 -i /dev/video1 -f rtsp rtsp://localhost:8554/mystream
 ```
 Although ffmpeg listens on localhost, mediamtx listens on `0.0.0.0`, making the RTSP stream accessible from the outside.
 
