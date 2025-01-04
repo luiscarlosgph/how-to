@@ -3,16 +3,16 @@ Using the system daemon
 
 1. Install the required packages:
 
-```
-$ sudo apt install ifupdown net-tools wireless-tools
-```
+   ```
+   $ sudo apt install ifupdown net-tools wireless-tools
+   ```
    
-3. Edit `$ vim /lib/systemd/system/wpa_supplicant.service` and modify the command line accordingly: 
+2. Edit `$ vim /lib/systemd/system/wpa_supplicant.service` and modify the command line accordingly: 
 
-```
-ExecStart=/usr/sbin/wpa_supplicant -u -s -iwlan0 -c/etc/wpa_supplicant.conf -O "DIR=/run/wpa_supplicant GROUP=netdev"
-```
-If your wireless device is not `wlan0` modify the line above accordingly. 
+   ```
+   ExecStart=/usr/sbin/wpa_supplicant -u -s -iwlan0 -c/etc/wpa_supplicant.conf -O "DIR=/run/wpa_supplicant GROUP=netdev"
+   ```
+   If your wireless device is not `wlan0` modify the line above accordingly. 
 
 3. Generate the configuration file: `$ wpa_passphrase "<essid>" "<password>" | sudo tee /etc/wpa_supplicant.conf
 
