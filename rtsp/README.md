@@ -8,5 +8,11 @@ $ git clone https://github.com/umlaeute/v4l2loopback.git
 $ cd v4l2loopback/
 $ make && sudo make install
 $ sudo depmod -a
+$ cd
 $ sudo apt install liblog4cpp5-dev
+$ git clone https://github.com/mpromonet/libv4l2cpp.git
+$ cd libv4l2cpp/
+$ make
+$ sudo mkdir /usr/include/libv4l2cpp/
+$ sudo make install
 ```
