@@ -1,31 +1,26 @@
 1. Install dependencies:
 
 ```
-$ sudo apt install linux-headers-current-sunxi64 bison libbison-dev flex libfl-dev liblog4cpp5-dev cmake libvpx-dev libx264-dev libx265-dev libjpeg-dev libtool
+$ sudo apt install ffmpeg
 ```
 
-2. TODO:
+2. Download and run media server:
 
-```bash
-$ cd /usr/src/linux-headers-6.6.62-current-sunxi64/
-$ sudo make scripts
+```
 $ cd
-$ git clone https://github.com/umlaeute/v4l2loopback.git
-$ cd v4l2loopback/
-$ make && sudo make install
-$ sudo depmod -a
-$ cd
-$ git clone https://github.com/mpromonet/libv4l2cpp.git
-$ cd libv4l2cpp/
-$ mkdir build
-$ cd build
-$ cmake ..
-$ make
-$ sudo mkdir /usr/include/libv4l2cpp/
-$ sudo cp liblibv4l2cpp.a /usr/include/libv4l2cpp/
-$ cd
-$ git clone https://github.com/mpromonet/v4l2tools.git
-$ cd v4l2tools/
-$ make
-$ sudo make install 
+$ wget https://github.com/bluenviron/mediamtx/releases/download/v1.11.0/mediamtx_v1.11.0_linux_arm64v8.tar.gz
+$ tar xf mediamtx_v1.11.0_linux_arm64v8.tar.gz
+$ ./mediamtx
+```
+
+3. Run ffmpeg:
+
+```
+$ ffmpeg -i /dev/video1 -f rtsp rtsp://localhost:8554/mystream
+```
+
+4. Watch the stream:
+
+```
+rtsp://<ip>:8554/mystream
 ```
