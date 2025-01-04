@@ -20,7 +20,12 @@ Using the system daemon
 $ wpa_passphrase "<essid>" "<password>" | sudo tee /etc/wpa_supplicant.conf
 ```
 
-6. TODO
+6. Reload sytemd daemon config:
+
+```
+$ sudo systemctl daemon-reload
+$ sudo service wpa_supplicant restart
+```
 
 Standalone script
 -----------------
