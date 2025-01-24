@@ -4,7 +4,7 @@ Install
 
 1. Create a user called `non-root-docker` to run the Docker daemon. 
 
-2. Follow the official guide [here](https://docs.docker.com/engine/security/rootless).
+2. Follow the official installation guide [here](https://docs.docker.com/engine/security/rootless).
 
 
 
