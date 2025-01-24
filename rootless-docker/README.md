@@ -1,5 +1,15 @@
+Install
+-------
+
+Follow the official guide [here](https://docs.docker.com/engine/security/rootless)
+
+Create a user called `non-root-docker` to run the Docker daemon. 
+
+
 Config file (daemon.json)
------------
+-------------------------
+
+Edit `/home/non-root-docker/.config/docker/daemon.json`:
 
 ```
 {
@@ -7,6 +17,7 @@ Config file (daemon.json)
         "exec-opts": ["native.cgroupdriver=cgroupfs"]
 }
 ```
+
 
 SystemD service to run the rootless Docker
 ------------------------------------------
@@ -34,4 +45,4 @@ WantedBy=multi-user.target
 User config
 -----------
 
-Append `export DOCKER_HOST=unix:///home/non-root-docker/.docker/run/docker.sock` to the end of your `~/.bashrc` or `~/.zshrc` file.
+Append `export DOCKER_HOST=unix:///home/non-root-docker/.docker/run/docker.sock` to the `~/.bashrc` or `~/.zshrc` file of any user that wants to use Docker. 
