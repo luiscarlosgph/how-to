@@ -30,3 +30,8 @@ ExecStartPost=/bin/bash -c "sleep 30 && chmod ugo+rw /home/non-root-docker/.dock
 [Install]
 WantedBy=multi-user.target
 ```
+
+User config
+-----------
+
+Append `export DOCKER_HOST=unix:///home/non-root-docker/.docker/run/docker.sock` to the end of your `~/.bashrc` or `~/.zshrc` file.
