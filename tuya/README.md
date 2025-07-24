@@ -40,5 +40,13 @@ The DPS is usually `20`, but you have to run this script to verify that it is in
 
 5. If not already installed, install the following HACS package in Home Assistant: [hass-localtuya](https://github.com/xZetsubou/hass-localtuya)
    
-6. Go to the `Local Tuya` integration -> `Configure` -> `Add new device`, and fill the details that we have gathered above to create your new device.
+6. Go to the `Local Tuya` integration -> `Configure` -> `Add new device`, and fill the details that we have gathered above to create your new device:
+   
+   ```
+   Set “Brightness” to “22”.
+   Set “Color Temperature” to “22”.
+   Set “Color Mode” to “21”
+   Set “Color” to “24”
+   All other setpoints can remain in their original state.
+   ```
    
