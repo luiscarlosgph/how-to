@@ -14,10 +14,31 @@ How to setup Tuya lights with local control in Home Assistant
    
    2.4. Write the device ID and obtain the `Local Key` for the Tuya device.
 
-3. Launch the following Python script to obtain the :
+2. Install `tinytuya`: `$ pip install tinytuya`
+   
+3. Launch the following Python script to obtain the DPS:
    
 ```python
 
-TODO
+import tinytuya
 
+tinytuya.set_debug(True)
+
+# Connect to Device
+d = tinytuya.OutletDevice(
+    dev_id='<device_id_here>',
+    address='<local_ip_address_here>',
+    local_key='<local_key_here>',
+    version=3.5)
+
+# Get Status
+data = d.status()
+print('set_status() result %r' % data)
 ```
+
+The DPS is usually `20`, but you have to run this script to verify that it is indeed `20` and the Tuya device is accessible. 
+
+3. Install the following HACS package in Home Assistant: [hass-localtuya](https://github.com/xZetsubou/hass-localtuya)
+   
+4. Go to the `Local Tuya' integration -> `Configure` -> `Add new device`, and fill the details that we have gathered above to create your new device.
+   
