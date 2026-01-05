@@ -55,7 +55,8 @@ Contents
   * [SVG to PDF](svg-to-pdf): convert an SVG image to a high resolution PDF image.
   * [QR code generation](generate-qr-code): generate an image with the QR code of a given URL.
   * [Split a PDF by pages](split-pdf): split a pdf by range of pages.
-  * [RTSP server](rtsp): setup an RTSP server to stream video. 
+  * [RTSP server](rtsp): setup an RTSP server to stream video.
+  * [YouTube](youtube): command to download captions from YouTube videos. 
 
  
 * **Networking**
